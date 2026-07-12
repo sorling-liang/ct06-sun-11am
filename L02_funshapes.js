@@ -1,9 +1,23 @@
 /*
 Task 1: Add the setup() function
 */
+function setup() {
+    //          w    h
+  createCanvas(300, 700);
+  background('red'); // grayscale 0: black, 255: white, 220: gray
+}
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
+  fill("gold");
+     //  x    y  diameter
+  circle(80, 80, 100);
+
+  // x1: 100
+  // x2: 200
+  // y1: 50
+  // y2: 100
+  triangle(180, 200,  280, 200, 200, 0);
 
   // Challenge 2: A face using circle() function
 
