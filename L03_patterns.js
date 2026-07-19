@@ -12,7 +12,7 @@ function draw() {
   let circleY = 50;
 
 for (let num=1; num<5; num++) {
-circle(50,circleY,circleDiameter);
+circle(50*num,circleY,circleDiameter);
 }
 
   // circle(150,50,50);
