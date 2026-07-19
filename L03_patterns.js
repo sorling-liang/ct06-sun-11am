@@ -15,6 +15,8 @@ function draw() {
     circle(50*num,circleY,circleDiameter);
     circleY = circleY + 50;
     print("i will not sling mud at my friend");
+    print(width);
+    print(height);
   }
 
   // circle(150,50,50);
