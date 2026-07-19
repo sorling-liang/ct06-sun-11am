@@ -9,8 +9,10 @@ function draw() {
   fill("lime");
 
   let circleDiameter = 50;
+  let circleY = 50;
   
-  circle(50,50,50);
+
+  circle(50,50,circleDiameter);
   circle(150,50,50);
   circle(250,50,50);
   circle(350,50,50);
