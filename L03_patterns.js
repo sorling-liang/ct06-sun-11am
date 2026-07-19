@@ -6,8 +6,8 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
-  fill(255,255,255);
-  
+  fill("skyblue");
+
   circle(50,50,50);
   circle(150,50,50);
   circle(250,50,50);
