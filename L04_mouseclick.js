@@ -4,7 +4,7 @@
 // setup()
 // draw()
 
-let shapeColor = "pink";
+// let shapeColor = "pink";
 
 function setup() {
     //            w    h
