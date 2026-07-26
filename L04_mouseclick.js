@@ -3,6 +3,9 @@
 // create 2 JavaScript functions
 // setup()
 // draw()
+
+let shapeColor = "pink";
+
 function setup() {
     //            w    h
     createCanvas(500, 500);
