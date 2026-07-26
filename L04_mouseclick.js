@@ -32,7 +32,7 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColor = "blue";
+    shapeColor = color(random(0,255));
 }
 
 function mouseReleased() {
