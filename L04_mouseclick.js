@@ -14,7 +14,7 @@ function draw() {
     let ypos = 50;
     let ggColor = 0;
 
-    for (let num=1; num<6; num++) {
+    for (let num=1; num<7; num++) {
         fill(0, ggColor, 0);
          //     x     y    diameter
         circle(xpos, ypos, 50);
