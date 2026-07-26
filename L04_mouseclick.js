@@ -16,5 +16,6 @@ function draw() {
         fill(0);
         circle(xpos,50,50);
         xpos = xpos+50;
+        ypos = ypos+50;
     }
 }
