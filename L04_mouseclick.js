@@ -4,7 +4,7 @@
 // setup()
 // draw()
 function setup() {
-    createCanvas();
+    createCanvas(500, 600);
     background("hotpink");
 }
 
