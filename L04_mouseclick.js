@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    let xpos = 50;
+    let xpos = 350;
     let ypos = 50;
     let ggColor = 0;
 
@@ -18,7 +18,7 @@ function draw() {
         fill(0, ggColor, 0);
          //     x     y    diameter
         circle(xpos, ypos, 50);
-        xpos = xpos+50;
+        xpos = xpos-50;
         ypos = ypos+50;
         ggColor = ggColor + 50;
     }
