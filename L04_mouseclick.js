@@ -4,7 +4,7 @@
 // setup()
 // draw()
 
-// let shapeColor = "pink";
+let shapeColor = "pink";
 
 function setup() {
     //            w    h
@@ -14,7 +14,6 @@ function setup() {
 }
 
 function draw() {
-    let shapeColor = "white";
     // let xpos = 350;
     // let ypos = 50;
     // let ggColor = 0;
