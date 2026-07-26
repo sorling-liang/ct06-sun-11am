@@ -43,5 +43,6 @@ function mouseReleased() {
 
 function mouseMoved() {
     // system variables: mouseX, mouseY
+    fill(shapeColor);
     circle(mouseX,  mouseY, 20);
 }
