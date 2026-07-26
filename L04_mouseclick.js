@@ -34,3 +34,7 @@ function draw() {
 function mousePressed() {
     shapeColor = "blue";
 }
+
+function mouseReleased() {
+    shapeColor = "black";
+}
