@@ -11,6 +11,7 @@ function setup() {
     createCanvas(500, 500);
     background("hotpink");
     //noLoop(); // for lesson 4 no need
+    noStroke();
 }
 
 // function draw() {
@@ -37,4 +38,8 @@ function mousePressed() {
 
 function mouseReleased() {
     shapeColor = "white";
+}
+
+function mouseMoved() {
+    circle(mouseX,  mouseY, 35);
 }
