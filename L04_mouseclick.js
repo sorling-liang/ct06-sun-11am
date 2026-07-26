@@ -41,7 +41,7 @@ function setup() {
 //     shapeColor = "white";
 // }
 
-function mouseMoved() {
+function mouseDragged() {
     // system variables: mouseX, mouseY
     fill(shapeColor);
     circle(mouseX,  mouseY, 20);
