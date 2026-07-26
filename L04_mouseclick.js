@@ -11,6 +11,7 @@ function setup() {
     createCanvas(500, 500);
     background("hotpink");
     //noLoop(); // for lesson 4 no need
+    fill(shapeColor);
     noStroke();
 }
 
