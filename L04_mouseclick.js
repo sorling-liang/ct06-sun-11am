@@ -10,7 +10,7 @@ function setup() {
     //            w    h
     createCanvas(500, 500);
     background("hotpink");
-    //noLoop();
+    //noLoop(); // for lesson 4 no need
 }
 
 function draw() {
