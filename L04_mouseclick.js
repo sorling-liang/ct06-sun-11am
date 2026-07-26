@@ -14,9 +14,10 @@ function draw() {
     let ypos = 50;
     let ggColor = 0;
     for (let num=1; num<6; num++) {
-        fill(0);
+        fill(ggColor);
         circle(xpos,ypos,50);
         xpos = xpos+50;
         ypos = ypos+50;
+        ggColor = ggColor + 50;
     }
 }
