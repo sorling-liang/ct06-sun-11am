@@ -31,10 +31,10 @@ function draw() {
     circle(width/2, height/2, 200);
 }
 
-function mousePressed() {
+function mousePress() {
     shapeColor = "blue";
 }
 
-function mouseReleased() {
+function mouseRelease() {
     shapeColor = "black";
 }
