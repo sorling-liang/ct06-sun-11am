@@ -27,5 +27,6 @@ function draw() {
     //     ggColor = ggColor + 50;
     // }
 
-    fill(shapeColor)
+    fill(shapeColor);
+    circle(width/2, height/2, 200);
 }
