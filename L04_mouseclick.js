@@ -7,7 +7,7 @@ function setup() {
     //            w    h
     createCanvas(500, 500);
     background("hotpink");
-    noLoop();
+    //noLoop();
 }
     let xpos = 350;
     let ypos = 50;
