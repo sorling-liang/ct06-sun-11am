@@ -10,5 +10,7 @@ function setup() {
 }
 
 function draw() {
-    
+    for (let num=1; num<6; num++) {
+        
+    }
 }
