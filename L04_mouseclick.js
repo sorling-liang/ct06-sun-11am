@@ -30,3 +30,7 @@ function draw() {
     fill(shapeColor);
     circle(width/2, height/2, 200);
 }
+
+function mousePressed() {
+    shapeColor = "blue";
+}
