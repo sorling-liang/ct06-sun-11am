@@ -7,13 +7,13 @@ function setup() {
     //            w    h
     createCanvas(500, 500);
     background("hotpink");
-    //noLoop();
+    noLoop();
 }
+
+function draw() {
     let xpos = 350;
     let ypos = 50;
     let ggColor = 0;
-
-function draw() {
 
     for (let num=1; num<4; num++) {
         fill(0, ggColor, 0);
