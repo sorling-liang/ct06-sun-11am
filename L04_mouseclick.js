@@ -10,8 +10,10 @@ function setup() {
 }
 
 function draw() {
+    let xpos = 50;
     for (let num=1; num<6; num++) {
         fill(0);
-        circle(50,50,50);
+        circle(xpos,50,50);
+        xpos = xpos?
     }
 }
