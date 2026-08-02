@@ -25,6 +25,7 @@ function draw() {
     } 
     if (showSquare) {
         fill("blue");
+        //    x          y       w      h
         rect(width/2, height/2, size, size);
     }        
 }
