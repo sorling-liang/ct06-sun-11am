@@ -1,5 +1,5 @@
 // write your codes here
-let size = 250;
+let size = 25;
 let colour = "blue";
 // let showCircle = false; // in JS, true or false is in lowercase
 // let showRect = false;
@@ -32,16 +32,16 @@ function draw() {
     // }        
 }
 
-function keyPressed() {
-    print(key);
-    print(keyCode);
+// function keyPressed() {
+//     print(key);
+//     print(keyCode);
 
-    if (keyCode === UP_ARROW) {
-        colour = "red";
-    }
-    if (keyCode === DOWN_ARROW) {
-        colour = "black";
-    }    
+//     if (keyCode === UP_ARROW) {
+//         colour = "red";
+//     }
+//     if (keyCode === DOWN_ARROW) {
+//         colour = "black";
+//     }    
 //     // size = 300;
 //     if (key === 'c') {
 //         // ! is a NOT operator
@@ -55,7 +55,7 @@ function keyPressed() {
 //         // ! is a NOT operator
 //         showRect = !showRect;
 //     }
-}
+// }
 
 // function keyReleased() {
 //     size = 50;
