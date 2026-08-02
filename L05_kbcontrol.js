@@ -19,8 +19,11 @@ function draw() {
     circle(xpos, height/2, size);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos + 5;
+        xpos = xpos + 2;
     }
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos + 2;
+    }    
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
