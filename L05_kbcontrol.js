@@ -18,8 +18,8 @@ function draw() {
     fill(colour);
     circle(xpos, height/2, size);
 
-    if (keyIsDown(UP_ARROW)) {
-        
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos + 5;
     }
     // if (showCircle) {
     //     fill("white");
