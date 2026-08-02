@@ -2,7 +2,8 @@
 let size = 250;
 let colour = "blue";
 let showCircle = false; // in JS, true or false is in lowercase
-
+let showRect = false;
+let showSquare = false;
 
 function setup() {
     createCanvas(600, 600);
