@@ -17,7 +17,8 @@ function draw() {
         circle(width/2, height/2, size);
     }
     if (showRect) {
-        rect(width/2, height/2, size);
+        fill("red");
+        rect(width/2, height/2, size, size);
     }    
 }
 
