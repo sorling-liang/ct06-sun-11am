@@ -18,16 +18,16 @@ function draw() {
 }
 
 function keyPressed() {
-    size = 300;
+    // size = 300;
     if (key === 'c') {
         // ! is a NOT operator
         showCircle = !showCircle;
     }
 }
 
-function keyReleased() {
-    size = 50;
-}
+// function keyReleased() {
+//     size = 50;
+// }
 
 // function mousePressed() {
 //     size = 5;
