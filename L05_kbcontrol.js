@@ -31,6 +31,9 @@ function draw() {
 }
 
 function keyPressed() {
+    print(key);
+    print(keyCode);
+    
 //     // size = 300;
 //     if (key === 'c') {
 //         // ! is a NOT operator
