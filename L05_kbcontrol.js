@@ -40,7 +40,7 @@ function keyPressed() {
     if (key === 'r') {
         // ! is a NOT operator
         showRect = !showRect;
-    }        
+    }
 }
 
 // function keyReleased() {
