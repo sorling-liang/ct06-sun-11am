@@ -21,8 +21,8 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
     }
-    if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos + 2;
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos - 2;
     }    
     // if (showCircle) {
     //     fill("white");
