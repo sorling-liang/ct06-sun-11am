@@ -11,10 +11,13 @@ function setup() {
     // noStroke();
 }
 
+let xpos = 0;
 function draw() {
     background("skyblue");
     fill(colour);
     circle(width/2, height/2, size);
+
+
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
