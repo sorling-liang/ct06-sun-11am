@@ -10,3 +10,11 @@ function setup() {
 // function draw() {
 //     background("skyblue");
 // }
+
+function mousePressed() {
+
+}
+
+function mouseDragged() {
+    
+}
