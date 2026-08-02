@@ -13,6 +13,14 @@ function draw() {
     rect(width/2, height/2, size, size);
 }
 
+function keyPressed() {
+    size = 300;
+}
+
+function keyReleased() {
+    size = 50;
+}
+
 // function mousePressed() {
 //     size = 5;
 //     //                  red        green        blue
