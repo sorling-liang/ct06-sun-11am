@@ -12,7 +12,7 @@ function setup() {
 }
 
 let xpos = 0;
-let  = 0;
+let ypos = 0;
 
 function draw() {
     background("skyblue");
@@ -26,7 +26,7 @@ function draw() {
         xpos = xpos - 2;
     }  
     if (keyIsDown(UP_ARROW)) {
-        xpos = xpos - 2;
+        ypos = ypos - 2;
     }        
     // if (showCircle) {
     //     fill("white");
