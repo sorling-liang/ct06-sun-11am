@@ -20,6 +20,7 @@ function draw() {
 function keyPressed() {
     size = 300;
     if (key === 'c') {
+        // ! is a NOT operator
         showCircle = !showCircle;
     }
 }
