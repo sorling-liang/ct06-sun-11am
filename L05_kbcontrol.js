@@ -8,18 +8,18 @@ function setup() {
     noStroke();
 }
 
-// function draw() {
-//     background("skyblue");
+function draw() {
+    background("skyblue");
+}
+
+// function mousePressed() {
+//     size = 5;
+//     //                  red        green        blue
+//     colour = color(random(0,255), random(0,255), random(0,255));
 // }
 
-function mousePressed() {
-    size = 5;
-    //                  red        green        blue
-    colour = color(random(0,255), random(0,255), random(0,255));
-}
-
-function mouseDragged() {
-    fill(colour);
-    circle(mouseX, mouseY, size);
-    size = size + 0.5;
-}
+// function mouseDragged() {
+//     fill(colour);
+//     circle(mouseX, mouseY, size);
+//     size = size + 0.5;
+// }
