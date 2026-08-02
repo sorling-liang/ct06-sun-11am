@@ -19,6 +19,9 @@ function draw() {
 
 function keyPressed() {
     size = 300;
+    if (key === 'c') {
+        showCircle = !showCircle;
+    }
 }
 
 function keyReleased() {
