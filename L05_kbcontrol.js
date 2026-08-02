@@ -30,21 +30,21 @@ function draw() {
     }        
 }
 
-function keyPressed() {
-    // size = 300;
-    if (key === 'c') {
-        // ! is a NOT operator
-        showCircle = !showCircle;
-    }
-    if (key === 's') {
-        // ! is a NOT operator
-        showSquare = !showSquare;
-    }
-    if (key === 'r') {
-        // ! is a NOT operator
-        showRect = !showRect;
-    }
-}
+// function keyPressed() {
+//     // size = 300;
+//     if (key === 'c') {
+//         // ! is a NOT operator
+//         showCircle = !showCircle;
+//     }
+//     if (key === 's') {
+//         // ! is a NOT operator
+//         showSquare = !showSquare;
+//     }
+//     if (key === 'r') {
+//         // ! is a NOT operator
+//         showRect = !showRect;
+//     }
+// }
 
 // function keyReleased() {
 //     size = 50;
