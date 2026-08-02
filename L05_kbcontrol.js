@@ -1,7 +1,7 @@
 // write your codes here
 let size = 250;
 let colour = "blue";
-let showCircle = false;
+let showCircle = false; // in JS, true or false is in lowercase
 
 
 function setup() {
