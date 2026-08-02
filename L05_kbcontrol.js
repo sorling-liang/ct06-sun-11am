@@ -12,11 +12,12 @@ function setup() {
 }
 
 let xpos = 0;
+let ypos = 0;
 
 function draw() {
     background("skyblue");
     fill(colour);
-    circle(xpos, height/2, size);
+    circle(xpos, ypos, size);
 
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
