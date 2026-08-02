@@ -13,6 +13,7 @@ function setup() {
 
 function mousePressed() {
     size = 5;
+    colour = fill
 }
 
 function mouseDragged() {
