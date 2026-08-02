@@ -17,7 +17,7 @@ let ypos = 0;
 function draw() {
     background("skyblue");
     fill(colour);
-    circle(xpos, ypos, size);
+    rect(xpos, ypos, size, size);
 
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
