@@ -30,7 +30,7 @@ function draw() {
     // }        
 }
 
-// function keyPressed() {
+function keyPressed() {
 //     // size = 300;
 //     if (key === 'c') {
 //         // ! is a NOT operator
@@ -44,7 +44,7 @@ function draw() {
 //         // ! is a NOT operator
 //         showRect = !showRect;
 //     }
-// }
+}
 
 // function keyReleased() {
 //     size = 50;
