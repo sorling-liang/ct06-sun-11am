@@ -1,5 +1,5 @@
 // write your codes here
-// let size = 250;
+let size = 250;
 let colour = "blue";
 // let showCircle = false; // in JS, true or false is in lowercase
 // let showRect = false;
