@@ -35,8 +35,9 @@ function keyPressed() {
     print(keyCode);
 
     if (keyCode === UP_ARROW) {
-        print("i have got UP ARROW key")
+        colour = "red";
     }
+    
 //     // size = 300;
 //     if (key === 'c') {
 //         // ! is a NOT operator
