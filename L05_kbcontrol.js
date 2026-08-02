@@ -16,6 +16,9 @@ function draw() {
     if (showCircle) {
         circle(width/2, height/2, size);
     }
+    if (showRect) {
+        rect(width/2, height/2, size);
+    }    
 }
 
 function keyPressed() {
