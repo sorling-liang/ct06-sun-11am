@@ -18,7 +18,7 @@ function draw() {
     }
     if (showRect) {
         fill("red");
-        rect(width/2, height/2, size, size);
+        rect(width/2, height/2, size, size*2);
     } 
     if (showSquare) {
         fill("blue");
@@ -32,6 +32,14 @@ function keyPressed() {
         // ! is a NOT operator
         showCircle = !showCircle;
     }
+    if (key === 'c') {
+        // ! is a NOT operator
+        showCircle = !showCircle;
+    }
+    if (key === 'c') {
+        // ! is a NOT operator
+        showCircle = !showCircle;
+    }        
 }
 
 // function keyReleased() {
