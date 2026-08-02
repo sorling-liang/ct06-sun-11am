@@ -17,5 +17,6 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-
+    fill(colour);
+    
 }
