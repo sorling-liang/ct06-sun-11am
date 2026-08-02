@@ -27,7 +27,10 @@ function draw() {
     }  
     if (keyIsDown(UP_ARROW)) {
         ypos = ypos - 2;
-    }        
+    }  
+    if (keyIsDown(DOWN_ARROW)) {
+        ypos = ypos + 2;
+    }            
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
