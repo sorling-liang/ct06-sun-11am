@@ -14,6 +14,7 @@ function setup() {
 function draw() {
     background("skyblue");
     if (showCircle) {
+        fill("white");
         circle(width/2, height/2, size);
     }
     if (showRect) {
