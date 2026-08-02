@@ -12,12 +12,15 @@ function setup() {
 }
 
 let xpos = 0;
+
 function draw() {
     background("skyblue");
     fill(colour);
-    circle(width/2, height/2, size);
+    circle(xpos, height/2, size);
 
-
+    if (keyIsDown(UP_ARROW)) {
+        
+    }
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
