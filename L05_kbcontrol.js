@@ -37,7 +37,9 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         colour = "red";
     }
-    
+    if (keyCode === DOWN_ARROW) {
+        colour = "black";
+    }    
 //     // size = 300;
 //     if (key === 'c') {
 //         // ! is a NOT operator
