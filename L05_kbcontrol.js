@@ -1,5 +1,5 @@
 // write your codes here
-let size = 5;
+let size = 50;
 let colour = "blue";
 
 function setup() {
@@ -10,6 +10,7 @@ function setup() {
 
 function draw() {
     background("skyblue");
+    
 }
 
 // function mousePressed() {
