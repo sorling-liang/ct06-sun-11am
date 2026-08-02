@@ -15,6 +15,7 @@ function draw() {
     background("skyblue");
     if (showCircle) {
         fill("white");
+        //       x        y        diameter
         circle(width/2, height/2, size);
     }
     if (showRect) {
