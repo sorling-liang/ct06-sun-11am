@@ -5,6 +5,7 @@ let colour = "blue";
 function setup() {
     createCanvas(600, 600);
     background("skyblue");
+    noStroke();
 }
 
 // function draw() {
