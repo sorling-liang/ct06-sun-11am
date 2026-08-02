@@ -32,13 +32,13 @@ function keyPressed() {
         // ! is a NOT operator
         showCircle = !showCircle;
     }
-    if (key === 'c') {
+    if (key === 's') {
         // ! is a NOT operator
         showCircle = !showCircle;
     }
-    if (key === 'c') {
+    if (key === 'r') {
         // ! is a NOT operator
-        showCircle = !showCircle;
+        showRect = !showRect;
     }        
 }
 
