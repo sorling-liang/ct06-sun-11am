@@ -1,6 +1,8 @@
 // write your codes here
 let size = 50;
 let colour = "blue";
+let showCircle = false;
+
 
 function setup() {
     createCanvas(600, 600);
