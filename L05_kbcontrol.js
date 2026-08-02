@@ -1,5 +1,5 @@
 // write your codes here
-let size = 50;
+let size = 250;
 let colour = "blue";
 let showCircle = false;
 
