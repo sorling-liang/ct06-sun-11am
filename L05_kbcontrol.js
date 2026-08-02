@@ -12,9 +12,9 @@ function setup() {
 // }
 
 function mousePressed() {
-
+    size = 5;
 }
 
 function mouseDragged() {
-    
+
 }
