@@ -34,7 +34,7 @@ function keyPressed() {
     }
     if (key === 's') {
         // ! is a NOT operator
-        showCircle = !showCircle;
+        showSquare = !showSquare;
     }
     if (key === 'r') {
         // ! is a NOT operator
