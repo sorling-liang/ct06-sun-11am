@@ -12,7 +12,7 @@ function setup() {
 }
 
 let xpos = 0;
-let ypos = 0;
+let  = 0;
 
 function draw() {
     background("skyblue");
@@ -24,7 +24,10 @@ function draw() {
     }
     if (keyIsDown(LEFT_ARROW)) {
         xpos = xpos - 2;
-    }    
+    }  
+    if (keyIsDown(UP_ARROW)) {
+        xpos = xpos - 2;
+    }        
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
