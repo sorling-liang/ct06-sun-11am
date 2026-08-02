@@ -14,7 +14,7 @@ function setup() {
 
 function mousePressed() {
     size = 5;
-    colour = color(random(0,255),random(0,255),random(0,255))
+    colour = color(random(0,255),random(0,255),random(0,255));
 }
 
 function mouseDragged() {
