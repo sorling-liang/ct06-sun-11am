@@ -19,7 +19,11 @@ function draw() {
     if (showRect) {
         fill("red");
         rect(width/2, height/2, size, size);
-    }    
+    } 
+    if (showSquare) {
+        fill("blue");
+        rect(width/2, height/2, size, size);
+    }        
 }
 
 function keyPressed() {
