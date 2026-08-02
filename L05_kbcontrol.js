@@ -12,7 +12,9 @@ function setup() {
 
 function draw() {
     background("skyblue");
-    rect(width/2, height/2, size, size);
+    if (showCircle) {
+        rect(width/2, height/2, size, size);
+    }
 }
 
 function keyPressed() {
