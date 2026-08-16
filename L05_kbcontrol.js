@@ -9,6 +9,9 @@ function setup() {
     createCanvas(600, 600);
     background("skyblue");
     // noStroke();
+
+    xpos = width/2;
+    ypos = height/2;
 }
 
 let xpos = 0;
