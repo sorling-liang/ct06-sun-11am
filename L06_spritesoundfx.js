@@ -5,7 +5,7 @@ let bgm;
 let pico;
 
 function preload() {
-
+    // any media, image or sound must load here
 }
 
 function setup() {
