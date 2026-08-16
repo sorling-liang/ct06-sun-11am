@@ -33,7 +33,8 @@ function draw() {
         ypos = ypos - 2;
     }    
 
-    xpos = c
+    xpos = constrain(xpos, 0, width);
+    ypos = constrain(ypos, 0, height);
 }
 function keyPressed() {
     // when space key press, play pop sound
