@@ -17,7 +17,7 @@ function setup() {
     background("lightblue");
     xpos = 0;
 
-    bgm.loop(); // play non-stop
+    //bgm.loop(); // play non-stop
 }
 function draw() {
     background("lightblue"); // erase my trail
