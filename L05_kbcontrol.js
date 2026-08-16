@@ -36,7 +36,10 @@ function draw() {
     }  
     if (keyIsDown(DOWN_ARROW)) {
         ypos = ypos + 2;
-    }            
+    }    
+    
+    xpos = constrain(xpos, 0, width);
+    
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
