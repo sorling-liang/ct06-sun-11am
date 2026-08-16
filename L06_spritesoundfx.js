@@ -6,6 +6,7 @@ let pico;
 
 function preload() {
     // any media, image or sound must load here
+    pico = loadImage();
 }
 
 function setup() {
