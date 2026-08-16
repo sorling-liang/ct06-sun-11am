@@ -16,8 +16,8 @@ function preload() {
 function setup() {
     createCanvas(350, 350);
     background("lightblue");
-    xpos = 0;
-    ypos = 0;
+    xpos = width/2;
+    ypos = height/2;
 
     //bgm.loop(); // play non-stop
 }
@@ -35,7 +35,7 @@ function draw() {
     }    
 
     xpos = constrain(xpos, 0+55, width-55);
-    ypos = constrain(ypos, 0-65, height-65);
+    ypos = constrain(ypos, 0+65, height-65);
 }
 function keyPressed() {
     // when space key press, play pop sound
