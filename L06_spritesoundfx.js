@@ -17,6 +17,7 @@ function setup() {
 }
 
 function draw() {
+    background("lightblue");
     //          x    y  w   h
     image(pico, xpos,0, 110,133);
 
