@@ -30,6 +30,7 @@ function draw() {
     }
 }
 function keyPressed() {
+    // when space key press, play pop sound
     if (key === 's') {
         bgm.stop();
     }
