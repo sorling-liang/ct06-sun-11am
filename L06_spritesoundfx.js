@@ -15,7 +15,6 @@ function setup() {
     background("lightblue");
     xpos = 0;
 }
-
 function draw() {
     background("lightblue");
     //          x    y  w   h
