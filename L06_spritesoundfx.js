@@ -3,6 +3,7 @@
 
 let bgm;
 let pico;
+let xpos;
 
 function preload() {
     // any media, image or sound must load here
@@ -12,12 +13,13 @@ function preload() {
 function setup() {
     createCanvas(350, 350);
     background("lightblue");
+    xpos = 0;
 }
 
 function draw() {
-    //          x y  w   h
-    image(pico, 0,0, 110,133);
-    
+    //          x    y  w   h
+    image(pico, xpos,0, 110,133);
+
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
     }
