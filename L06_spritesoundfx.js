@@ -23,13 +23,13 @@ function setup() {
 function draw() {
     background("lightblue"); // erase my trail
     //          x    y  w   h
-    image(pico, xpos,0, 110,133);
+    image(pico, xpos,ypos, 110,133);
 
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
     }
     if (keyIsDown(UP_ARROW)) {
-        ypos = xpos + 2;
+        ypos = ypos - 2;
     }    
 }
 function keyPressed() {
