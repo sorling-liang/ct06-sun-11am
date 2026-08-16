@@ -10,7 +10,7 @@ function preload() {
     pico = loadImage("assets/pico-a.png");
 
     bgm = loadSound("assets/bossaNova.mp3");
-    sfx = XXXX
+    sfx = loadSound("assets/pop.mp3");
 }
 
 function setup() {
