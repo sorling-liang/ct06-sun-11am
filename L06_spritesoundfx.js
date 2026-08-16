@@ -16,7 +16,7 @@ function setup() {
     xpos = 0;
 }
 function draw() {
-    background("lightblue");
+    background("lightblue"); // erase my trail
     //          x    y  w   h
     image(pico, xpos,0, 110,133);
 
