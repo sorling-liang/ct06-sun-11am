@@ -38,7 +38,7 @@ function draw() {
         ypos = ypos + 2;
     }    
     
-    xpos = constrain(xpos, 0, width);
+    xpos = constrain(xpos, 0, width-12.5);
     ypos = constrain(ypos, 0, height);
 
     // if (showCircle) {
