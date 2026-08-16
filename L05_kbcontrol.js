@@ -38,8 +38,8 @@ function draw() {
         ypos = ypos + 2;
     }    
     
-    xpos = constrain(xpos, 0, width-12.5);
-    ypos = constrain(ypos, 0, height);
+    xpos = constrain(xpos, 0+12.5, width-12.5);
+    ypos = constrain(ypos, 0+12.5, height-12.5);
 
     // if (showCircle) {
     //     fill("white");
