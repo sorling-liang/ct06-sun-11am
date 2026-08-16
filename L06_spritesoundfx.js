@@ -32,6 +32,8 @@ function draw() {
     if (keyIsDown(UP_ARROW)) {
         ypos = ypos - 2;
     }    
+
+    xpos = c
 }
 function keyPressed() {
     // when space key press, play pop sound
