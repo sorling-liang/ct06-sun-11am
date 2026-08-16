@@ -15,5 +15,6 @@ function setup() {
 }
 
 function draw() {
+    image(pico, 0,0, )
 
 }
