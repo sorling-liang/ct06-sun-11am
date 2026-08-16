@@ -17,6 +17,8 @@ function setup() {
     createCanvas(350, 350);
     background("lightblue");
     xpos = 0;
+
+    bgm.loop(); // play non-stop
 }
 function draw() {
     background("lightblue"); // erase my trail
