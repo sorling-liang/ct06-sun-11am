@@ -1,8 +1,11 @@
 // write your codes here
 // write 2 basic functions
 
+let bgm;
+let pico;
+
 function preload() {
-    
+
 }
 
 function setup() {
