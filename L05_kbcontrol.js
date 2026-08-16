@@ -39,7 +39,8 @@ function draw() {
     }    
     
     xpos = constrain(xpos, 0, width);
-    
+    ypos = constrain(ypos, 0, );
+
     // if (showCircle) {
     //     fill("white");
     //     //       x        y        diameter
