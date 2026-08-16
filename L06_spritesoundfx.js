@@ -31,7 +31,10 @@ function draw() {
 }
 function keyPressed() {
     // when space key press, play pop sound
-    
+    if (keyCode === 32) {
+        sfx.play();
+    }
+
     if (key === 's') {
         bgm.stop();
     }
