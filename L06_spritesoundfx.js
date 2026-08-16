@@ -9,6 +9,8 @@ let bgm, sfx;
 function preload() {
     // any media, image or sound must load here
     pico = loadImage("assets/pico-a.png");
+
+    bgm = loadSound("assets/bossaNova.mp3");
 }
 
 function setup() {
