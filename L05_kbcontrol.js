@@ -20,7 +20,8 @@ let ypos = 0;
 function draw() {
     background("skyblue");
     fill(colour);
-    rect(xpos, ypos, size, size);
+    
+    //rect(xpos, ypos, size, size);
 
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos + 2;
