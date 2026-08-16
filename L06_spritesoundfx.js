@@ -28,3 +28,8 @@ function draw() {
         xpos = xpos + 2;
     }
 }
+function keyPressed() {
+    if (key === 's') {
+        bgm.stop();
+    }
+}
