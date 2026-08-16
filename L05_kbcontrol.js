@@ -39,23 +39,7 @@ function draw() {
     }    
     
     xpos = constrain(xpos, 0+12.5, width-12.5);
-    ypos = constrain(ypos, 0+12.5, height-12.5);
-
-    // if (showCircle) {
-    //     fill("white");
-    //     //       x        y        diameter
-    //     circle(width/2, height/2, size);
-    // }
-    // if (showRect) {
-    //     fill("red");
-    //     //    x               y            w      h
-    //     rect(width/2-size, height/2-size, size, size*2);
-    // } 
-    // if (showSquare) {
-    //     fill("blue");
-    //     //    x          y       w      h
-    //     rect(width/2, height/2, size, size);
-    // }        
+    ypos = constrain(ypos, 0+12.5, height-12.5);    
 }
 
 // function keyPressed() {
