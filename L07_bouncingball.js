@@ -49,7 +49,8 @@ function keyPressed() {
         ballSpeedY = ballSpeedY * 1.2;
     }
     else if (keyCode === DOWN_ARROW) {
-        ballSpeedX = ballSpeedX
+        ballSpeedX = ballSpeedX * 0.67;
+        ballSpeedY = ballSpeedY * 0.67;
     }
 }
 
