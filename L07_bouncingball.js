@@ -40,7 +40,9 @@ function draw() {
     }
 }
 
-
+// find a keyPressed
+// up arrow key, increase X and Y speeds
+// down arrow key, decrease X and Y speeds
 
 
 
