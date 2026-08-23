@@ -17,7 +17,10 @@ function setup() {
 }
 
 function draw() {
-
+    background("lightblue"); // erase my trail
+    imageMode(CENTER);
+    //          x    y     w   h
+    image(pico, xpos,ypos, 110,133);
 }
 
 function keyPressed() {
