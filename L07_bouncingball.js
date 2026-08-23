@@ -2,6 +2,7 @@
 let pico;
 let xpos, ypos;
 let bgm, sfx;
+let picoWidth;
 
 function preload() {
     // any media, image or sound must load here
@@ -14,6 +15,8 @@ function setup() {
     background("lightblue");
     xpos = width/2;
     ypos = height/2;
+let picoWidth;
+ 
 }
 
 function draw() {
