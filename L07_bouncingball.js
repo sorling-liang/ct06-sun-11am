@@ -21,8 +21,8 @@ function setup() {
 function draw() {
     background("lightblue"); // erase my trail
     imageMode(CENTER);
-    //          x    y     w   h
-    image(pico, xpos,ypos, 110,133);
+    //          x    y     w         h
+    image(pico, xpos,ypos, picoWidth,133);
 
     if (keyIsDown(RIGHT_ARROW)) {
         picoWidth = 110;
