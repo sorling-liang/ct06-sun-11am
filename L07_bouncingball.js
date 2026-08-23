@@ -25,7 +25,7 @@ function draw() {
     image(pico, xpos,ypos, picoWidth, 133);
 
     if (keyIsDown(RIGHT_ARROW)) {
-        picoWidth = 110;
+        picoWidth = 110; // revert
         xpos = xpos + 2;
     }
     if (keyIsDown(LEFT_ARROW)) {
