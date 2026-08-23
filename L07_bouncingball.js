@@ -15,6 +15,7 @@ function draw() {
     background(200); // lightgray
     fill(0);
     circle(ballX, ballY, ballSize);
+    
     ballX = ballX + ballSpeedX;
 }
 
