@@ -22,7 +22,7 @@ function draw() {
 
     if (ballX > width) {
         ballSpeedX = -1.2 * ballSpeedX; // 2 * -1 = -2
-        //     R              G  
+        //     R              G  B               transparency
         fill( random(0, 255), 0, random(0, 255), random(10,55) );
     }
     if (ballX < 0) {
