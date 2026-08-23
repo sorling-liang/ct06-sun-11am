@@ -11,6 +11,9 @@ function preload() {
 
 function setup() {
     createCanvas(600,600);
+    background("lightblue");
+    xpos = width/2;
+    ypos = height/2;
 }
 
 function draw() {
