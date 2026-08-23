@@ -44,7 +44,12 @@ function draw() {
 // up arrow key, increase X and Y speeds
 // down arrow key, decrease X and Y speeds
 function keyPressed() {
-    if (keyCode === )
+    if (keyCode === UP_ARROW) {
+        ballSpeedX = bal
+    }
+    else if (keyCode === DOWN_ARROW) {
+
+    }
 }
 
 
