@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-    background(200); // lightgray
+    background("gray"); // lightgray
     fill(0);
     circle(ballX, ballY, ballSize);
 }
