@@ -9,7 +9,8 @@ function setup() {
 }
 
 function draw() {
-    circle()
+    background(200);
+    circle(ballX, ballY, ballSize);
 }
 
 
