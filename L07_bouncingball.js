@@ -15,8 +15,7 @@ function setup() {
     background("lightblue");
     xpos = width/2;
     ypos = height/2;
-let picoWidth;
- 
+    picoWidth = 110;
 }
 
 function draw() {
