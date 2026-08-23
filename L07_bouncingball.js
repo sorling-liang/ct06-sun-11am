@@ -7,8 +7,8 @@ let ballSpeedY = 2;
 function setup() {
     createCanvas(400, 600);
     noStroke();
-    ballX = 50;
-    ballY = 50;
+    // ballX = 50;
+    // ballY = 50;
 }
 
 function draw() {
@@ -17,7 +17,7 @@ function draw() {
     circle(ballX, ballY, ballSize);
 
     ballX = ballX + ballSpeedX;
-    //ballY = ballY + ballSpeedY;
+    ballY = ballY + ballSpeedY;
 
     if (ballX > width) {
         ballSpeedX = -1 * ballSpeedX; // 2 * -1 = -2
