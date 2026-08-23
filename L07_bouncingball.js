@@ -7,7 +7,7 @@ let ballSpeedY = 1.5;
 function setup() {
     createCanvas(250, 350);
     background(200); // lightgray
-    fill("hotpink");
+    fill("hotpink"); // initial colour
 
     noStroke();
     // ballX = 50;
