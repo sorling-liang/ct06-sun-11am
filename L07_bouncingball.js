@@ -45,7 +45,8 @@ function draw() {
 // down arrow key, decrease X and Y speeds
 function keyPressed() {
     if (keyCode === UP_ARROW) {
-        ballSpeedX = bal
+        ballSpeedX = ballSpeedX * 1.2;
+        ballSpeedY = ballSpeedY 
     }
     else if (keyCode === DOWN_ARROW) {
 
