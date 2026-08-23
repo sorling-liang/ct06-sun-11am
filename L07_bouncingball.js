@@ -22,7 +22,7 @@ function draw() {
 
     if (ballX > width) {
         ballSpeedX = -1 * ballSpeedX; // 2 * -1 = -2
-        fill( random(0, 255), 0, random(0, 255) );
+        fill( random(0, 255), 0, random(0, 255), random(0,55) );
     }
     if (ballX < 0) {
         ballSpeedX = -1 * ballSpeedX; // -2 * -1 = 2
