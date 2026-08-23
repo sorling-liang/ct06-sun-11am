@@ -26,17 +26,17 @@ function draw() {
         fill( random(0, 255), 0, random(0, 255), random(10,55) );
     }
     if (ballX < 0) {
-        ballSpeedX = -0.88 * ballSpeedX; // -2 * -1 = 2
+        ballSpeedX = -1 * ballSpeedX; // -2 * -1 = 2
         fill( random(0, 255), 0, random(0, 255), random(10,55) );
     }
 
     if (ballY > height) {
         fill( random(0, 255), 0, random(0, 255), random(10,55)  );
-        ballSpeedY = -1.1 * ballSpeedY;
+        ballSpeedY = -1 * ballSpeedY;
     }
     if (ballY < 0) {
         fill( random(0, 255), 0, random(0, 255), random(10,55)  );
-        ballSpeedY = -0.95 * ballSpeedY;
+        ballSpeedY = -1 * ballSpeedY;
     }
 }
 
