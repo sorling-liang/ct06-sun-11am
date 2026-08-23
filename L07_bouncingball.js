@@ -2,3 +2,17 @@
 function preload() {
 
 }
+
+function setup() {
+
+}
+
+function draw() {
+
+}
+
+function keyPressed() {
+    if (keyCode === 32) {
+        
+    }
+}
