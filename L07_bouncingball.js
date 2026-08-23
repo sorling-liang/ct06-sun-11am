@@ -1,4 +1,4 @@
-
+let ballSize = 40;
 
 
 
