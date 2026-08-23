@@ -44,6 +44,6 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === 32) {
-        picoWidth = 55;
+        picoWidth = 55; // half-sized
     }
 }
