@@ -21,6 +21,16 @@ function draw() {
     imageMode(CENTER);
     //          x    y     w   h
     image(pico, xpos,ypos, 110,133);
+    
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos + 2;
+    }
+    if (keyIsDown(UP_ARROW)) {
+        ypos = ypos - 2;
+    }    
+
+    xpos = constrain(xpos, 0+55, width-55);
+    ypos = constrain(ypos, 0+65, height-65);    
 }
 
 function keyPressed() {
