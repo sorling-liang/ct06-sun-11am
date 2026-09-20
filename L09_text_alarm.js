@@ -3,10 +3,11 @@
 // 2 functions:
 let countdown = 5;
 let objectId;
+let bgColor = "gray";
 
 function setup() {
     createCanvas(400,400);
-    background(220);
+    background(bgColor);
     textAlign(CENTER, CENTER);
 }
 function draw() {
