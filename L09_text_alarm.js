@@ -12,7 +12,7 @@ function draw() {
     let hh = hour();
     fill(0); // black text
     textSize(72);
-    text()
+    text(nf(hh,2))
 
 }
 
