@@ -33,6 +33,7 @@ function mousePressed() {
 function updateCountdown() {
     if (countdown === 0) {
         clearInterval(objectId); // delete the object
+        bgColor = "red";
     } 
     else {
         countdown = countdown - 1; // reduce by 1
