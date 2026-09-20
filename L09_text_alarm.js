@@ -5,7 +5,7 @@ function setup() {
     createCanvas(400,400);
     background(220);
 
-    let num1 = 23;
+    let num1 = 997;
     print(nf(num1, 4,3));
 }
 
