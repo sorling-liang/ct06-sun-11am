@@ -34,7 +34,7 @@ function updateCountdown() {
         clearInterval(objectId); // delete the object
     } 
     else {
-        countdown = countdown - 1;
+        countdown = countdown - 1; // reduce by 1
     }
 }
 // CCS
