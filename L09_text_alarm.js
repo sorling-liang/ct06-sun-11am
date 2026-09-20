@@ -29,7 +29,9 @@ function mousePressed() {
     objectId = setInterval(updateCountdown, 1000); // in one second
 }
 
-function 
+function updateCountdown() {
+    
+}
 // CCS
 // cascading stylesheets
 // HTML
