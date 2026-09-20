@@ -23,7 +23,7 @@ function draw() {
     text("click here to start countdown", width/2, height/2+105);
 }
 function mousePressed() {
-    console.log("i got mouse clicked!")
+    console.log("i got mouse clicked!"); // print() vs console.log()
 }
 // CCS
 // cascading stylesheets
