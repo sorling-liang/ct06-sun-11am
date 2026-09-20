@@ -39,7 +39,7 @@ function updateCountdown() {
     if (countdown === 0) {
         clearInterval(objectId); // delete the object
         bgColor = "red";
-        bg
+        bgMusic.play(); // start the music
     } 
     else {
         countdown = countdown - 1; // reduce by 1
