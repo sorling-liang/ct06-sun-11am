@@ -3,7 +3,7 @@
 // 2 functions:
 let countdown = 5;
 let objectId;
-let bgColor = "gray";
+let bgColor = "lightgray";
 
 function setup() {
     createCanvas(400,400);
