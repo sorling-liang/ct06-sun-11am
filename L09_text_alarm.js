@@ -26,6 +26,7 @@ function draw() {
 }
 function mousePressed() {
     console.log("i got mouse clicked!"); // print() vs console.log()
+    
 }
 // CCS
 // cascading stylesheets
