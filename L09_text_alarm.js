@@ -21,6 +21,7 @@ function draw() {
     fill("red");
     textSize(32);
     text(countdown, width/2, height/2+50);
+    text("click here to start countdown", w)
 }
 
 // CCS
