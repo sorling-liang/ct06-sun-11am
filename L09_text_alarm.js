@@ -32,8 +32,9 @@ function mousePressed() {
 function updateCountdown() {
     if (countdown === 0) {
         clearInterval(objectId); // delete the object
+    } else {
+        countdown = countdown - 1;
     }
-    countdown = countdown - 1;
 }
 // CCS
 // cascading stylesheets
