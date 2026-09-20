@@ -2,6 +2,8 @@
 // canvas size 400, 400
 // 2 functions:
 let countdown = 5;
+let objectId;
+
 function setup() {
     createCanvas(400,400);
     background(220);
