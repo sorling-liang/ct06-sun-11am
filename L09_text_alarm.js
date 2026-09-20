@@ -5,6 +5,9 @@ let countdown = 5;
 let objectId;
 let bgColor = "lightgrey";
 
+function preload() {
+
+}
 function setup() {
     createCanvas(400,400);
     background(bgColor);
