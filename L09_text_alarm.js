@@ -22,7 +22,7 @@ function draw() {
     textSize(32);
     text(countdown, width/2, height/2+75);
     textSize(16);
-    text("click here to start countdown", width/2, height/2+85);
+    text("click here to start countdown", width/2, height/2+105);
 }
 
 // CCS
