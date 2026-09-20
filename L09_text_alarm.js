@@ -26,8 +26,10 @@ function draw() {
 }
 function mousePressed() {
     console.log("i got mouse clicked!"); // print() vs console.log()
-    
+    objectId = setInterval(updateCountdown, 1000); // in one second
 }
+
+function 
 // CCS
 // cascading stylesheets
 // HTML
