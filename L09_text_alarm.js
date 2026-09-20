@@ -4,9 +4,10 @@
 let countdown = 5;
 let objectId;
 let bgColor = "lightgrey";
+let bgMusic;
 
 function preload() {
-
+    // how to load bossa nova mp3 file?
 }
 function setup() {
     createCanvas(400,400);
