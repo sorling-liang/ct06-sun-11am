@@ -12,3 +12,5 @@ function draw() {
 
 // CCS
 // cascading stylesheets
+// HTML
+// hypertext markup language
