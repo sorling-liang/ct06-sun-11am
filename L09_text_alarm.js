@@ -18,6 +18,8 @@ function draw() {
     textSize(72);
     text(nf(hh,2) + ":" + nf(mins,2) + ":" + nf(sec,2), width/2, height/2);
     // display countdown variable for me here, red color text
+    fill("red");
+    text(countdown)
 }
 
 // CCS
