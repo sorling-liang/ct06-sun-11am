@@ -4,9 +4,6 @@
 function setup() {
     createCanvas(400,400);
     background(220);
-
-    let num1 = 997;
-    print(nf(num1, 14,3));
 }
 
 function draw() {
