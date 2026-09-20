@@ -11,7 +11,7 @@ function draw() {
     background(220);
 
     let hh = hour();
-    let sec = second();
+    let sec = 0;
     fill(0); // black text
     textSize(72);
     text(nf(hh,2)+":00"+":"+sec, width/2, height/2);
