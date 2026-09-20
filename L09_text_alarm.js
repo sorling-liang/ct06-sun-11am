@@ -10,6 +10,9 @@ function draw() {
     background(220);
 
     let hh = hour();
+    fill(0); // black text
+    textSize(72);
+    text()
 
 }
 
