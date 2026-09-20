@@ -33,6 +33,7 @@ function updateCountdown() {
     if (countdown === 0) {
         clearInterval(objectId); // delete the object
     }
+    countdown = countdown - 1;
 }
 // CCS
 // cascading stylesheets
