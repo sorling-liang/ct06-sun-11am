@@ -8,7 +8,7 @@ let bgMusic;
 
 function preload() {
     // how to load bossa nova mp3 file?
-    bg
+    bgMusic = loadSound("assets/bossaNova.mp3");
 }
 function setup() {
     createCanvas(400,400);
