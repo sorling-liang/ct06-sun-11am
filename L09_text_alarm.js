@@ -3,12 +3,12 @@
 // 2 functions:
 function setup() {
     createCanvas(400,400);
-    background(220);
+    background(255);
     textAlign(CENTER, CENTER);
 }
 
 function draw() {
-    background(220);
+    background(255);
 
     let hh = hour();
     let sec = 0;
