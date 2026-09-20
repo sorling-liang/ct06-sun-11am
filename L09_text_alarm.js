@@ -6,7 +6,7 @@ function setup() {
     background(220);
 
     let num1 = 997;
-    print(nf(num1, 4,3));
+    print(nf(num1, 14,3));
 }
 
 function draw() {
