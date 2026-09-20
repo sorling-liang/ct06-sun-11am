@@ -11,7 +11,7 @@ function setup() {
     textAlign(CENTER, CENTER);
 }
 function draw() {
-    background(220);
+    background(bgColor);
     let hh = hour();
     let mins = minute();
     let sec = second();
