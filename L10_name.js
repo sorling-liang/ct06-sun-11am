@@ -18,6 +18,8 @@ function setup() {
     ageInput = createInput();
     ageInput.position(width/2-100, height/2+40);
     ageInput.input(updateMyAge); // listen for text changes
+
+    colorPicker = createColorPicker("")
 }
 // forever loop: updated 60 frames per one second
 function draw() {
