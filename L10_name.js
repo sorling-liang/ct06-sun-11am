@@ -20,6 +20,7 @@ function setup() {
     ageInput.input(updateMyAge); // listen for text changes
 
     colorPicker = createColorPicker("lightpink");
+    colorPicker.position(width/2-100, height/2+)
 }
 // forever loop: updated 60 frames per one second
 function draw() {
