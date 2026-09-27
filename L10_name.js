@@ -20,6 +20,8 @@ function draw() {
     fill("white");
     textSize(34);
     text(someVar, width/2, height/2-80);
+
+    text("", width/2-100, height/2);
 }
 function updateMyVar() {
     someVar = textInput.value();
