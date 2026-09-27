@@ -21,8 +21,7 @@ function setup() {
 // forever loop: updated 60 frames per one second
 function draw() {
     background("lightpink");
-    stroke("red"); // outline
-    strokeWeight(8);
+    
     fill("blue");
     rect(150,80,300,80, 15,15,15,15);
     fill("white");
@@ -32,8 +31,7 @@ function draw() {
     textSize(14);
     fill("black");
     textAlign(LEFT, CENTER);
-    stroke("black");
-    strokeWeight(0);
+    
     text("Tell me your name:", 70, height/2+10);
     text("Tell me your age:",  70, height/2+50);
 }
