@@ -25,7 +25,7 @@ function setup() {
 // forever loop: updated 60 frames per one second
 function draw() {
     background(colorPicker.value());
-    fill("blue");
+    fill(colorPicker.value());
     rect(150,10,300,140, 15,15,15,15);
     fill("white");
     textSize(34);
