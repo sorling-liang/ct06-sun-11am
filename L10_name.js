@@ -13,6 +13,7 @@ function setup() {
 // forever loop: updated 60 frames per one second
 function draw() {
     background("lightpink");
+    stroke("red");
     fill("blue");
     rect(150,80,300,80, 15,15,15,15);
     fill("white");
