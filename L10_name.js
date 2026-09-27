@@ -13,8 +13,9 @@ function setup() {
 // forever loop: updated 60 frames per one second
 function draw() {
     background("lightpink");
-    fill("blue")
+    fill("blue");
     rect(80,80,300,80);
+    fill("white");
     textSize(34);
     text(someVar, width/2, height/2-80);
 }
