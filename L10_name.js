@@ -4,12 +4,12 @@ let textInput;
 
 function setup() {
     createCanvas(600,400);
-    background("hotpink");
+    background("lightpink");
 
     textInput = createInput();
     textInput.position(width/2-100, height/2);
 }
 
 function draw() {
-    background("hotpink");
+    background("lightpink");
 }
