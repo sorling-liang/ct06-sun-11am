@@ -17,5 +17,5 @@ function draw() {
     text(someVar, width/2, height/2-80);
 }
 function updateMyVar() {
-    
+    someVar = textInput.value();
 }
