@@ -41,5 +41,5 @@ function updateMyVar() {
     someVar = textInput.value();
 }
 function updateMyAge() {
-    someAge = textInput.value();
+    someAge = ageInput.value();
 }
