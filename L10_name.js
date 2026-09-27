@@ -2,9 +2,9 @@
 // write your 2 functions
 function setup() {
     createCanvas(600,400);
-    background("black");
+    background("hotpink");
 }
 
 function draw() {
-    background("black");
+    background("hotpink");
 }
