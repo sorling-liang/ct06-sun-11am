@@ -11,9 +11,11 @@ function setup() {
     textInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
 }
-
 function draw() {
     background("lightpink");
     textSize(34);
     text(someVar, width/2, height/2-80);
+}
+function updateMyVar() {
+    
 }
