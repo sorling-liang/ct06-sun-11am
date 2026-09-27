@@ -22,7 +22,7 @@ function setup() {
 function draw() {
     background("lightpink");
     fill("blue");
-    rect(150,80,300,80, 15,15,15,15);
+    rect(150,10,300,140, 15,15,15,15);
     fill("white");
     textSize(34);
     text(someVar, width/2, height/2-80);
