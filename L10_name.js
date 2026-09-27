@@ -7,6 +7,8 @@ function setup() {
     createCanvas(600,400);
     background("lightpink");
 
+    textAlign(CENTER, CENTER);
+    
     textInput = createInput();
     textInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
