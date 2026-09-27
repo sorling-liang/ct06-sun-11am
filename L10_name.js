@@ -21,7 +21,8 @@ function draw() {
     textSize(34);
     text(someVar, width/2, height/2-80);
 
-    text(14);
+    text(12);
+    strokeWeight(1);
     text("Give me your name:", 100, height/2);
 }
 function updateMyVar() {
