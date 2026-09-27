@@ -24,7 +24,8 @@ function draw() {
     textSize(14);
     fill("black")
     textAlign(LEFT, CENTER);
-    strokeWeight(1);
+    stroke("black");
+    strokeWeight(0);
     text("Tell me your name:", 70, height/2+10);
 }
 function updateMyVar() {
