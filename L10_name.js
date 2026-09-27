@@ -1,6 +1,7 @@
 // write your codes here
 // write your 2 functions
 let textInput;
+let someVar;
 
 function setup() {
     createCanvas(600,400);
@@ -8,6 +9,7 @@ function setup() {
 
     textInput = createInput();
     textInput.position(width/2-100, height/2);
+    text
 }
 
 function draw() {
