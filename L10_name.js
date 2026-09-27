@@ -23,6 +23,7 @@ function draw() {
 
     text(12);
     fill("black")
+    textAlign(LEFT, CENTER);
     strokeWeight(1);
     text("Give me your name:", 100, height/2);
 }
