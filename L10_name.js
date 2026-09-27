@@ -25,7 +25,7 @@ function draw() {
     fill("black")
     textAlign(LEFT, CENTER);
     strokeWeight(1);
-    text("Tell me your name:", 100, height/2+45);
+    text("Tell me your name:", 80, height/2+15);
 }
 function updateMyVar() {
     someVar = textInput.value();
