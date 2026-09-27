@@ -22,7 +22,7 @@ function draw() {
     text(someVar, width/2, height/2-80);
 
     textSize(14);
-    fill("black")
+    fill("black");
     textAlign(LEFT, CENTER);
     stroke("black");
     strokeWeight(0);
