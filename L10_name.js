@@ -11,6 +11,7 @@ function setup() {
     textInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
 }
+// forever loop: updated 60 frames per one second
 function draw() {
     background("lightpink");
     textSize(34);
