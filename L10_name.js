@@ -5,6 +5,9 @@ let textInput;
 function setup() {
     createCanvas(600,400);
     background("hotpink");
+
+    textInput = createInput();
+    textInput.position()
 }
 
 function draw() {
