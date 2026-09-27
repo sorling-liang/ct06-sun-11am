@@ -14,6 +14,7 @@ function setup() {
 function draw() {
     background("lightpink");
     stroke("red");
+    strokeWeight(15);
     fill("blue");
     rect(150,80,300,80, 15,15,15,15);
     fill("white");
