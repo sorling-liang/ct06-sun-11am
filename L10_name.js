@@ -21,17 +21,14 @@ function setup() {
 // forever loop: updated 60 frames per one second
 function draw() {
     background("lightpink");
-    
     fill("blue");
     rect(150,80,300,80, 15,15,15,15);
     fill("white");
     textSize(34);
     text(someVar, width/2, height/2-80);
-
     textSize(14);
     fill("black");
     textAlign(LEFT, CENTER);
-    
     text("Tell me your name:", 70, height/2+10);
     text("Tell me your age:",  70, height/2+50);
 }
