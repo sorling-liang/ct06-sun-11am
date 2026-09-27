@@ -27,6 +27,7 @@ function draw() {
     stroke("black");
     strokeWeight(0);
     text("Tell me your name:", 70, height/2+10);
+    text("Tell me your age:", 70, height/2+50);
 }
 function updateMyVar() {
     someVar = textInput.value();
