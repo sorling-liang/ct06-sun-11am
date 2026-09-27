@@ -21,7 +21,7 @@ function draw() {
     textSize(34);
     text(someVar, width/2, height/2-80);
 
-    text("", width/2-100, height/2);
+    text("Give me your name:", 100, height/2);
 }
 function updateMyVar() {
     someVar = textInput.value();
