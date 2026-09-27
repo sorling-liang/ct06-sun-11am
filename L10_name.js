@@ -16,7 +16,7 @@ function setup() {
 
     ageInput = createInput();
     ageInput.position(width/2-100, height/2+50);
-    ageInput.input(updateMyVar); // listen for text changes
+    ageInput.input(updateMyAge); // listen for text changes
 }
 // forever loop: updated 60 frames per one second
 function draw() {
