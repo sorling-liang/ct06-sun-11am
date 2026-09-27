@@ -9,7 +9,7 @@ function setup() {
 
     textInput = createInput();
     textInput.position(width/2-100, height/2);
-    text
+    textInput.input(updateMyVar);
 }
 
 function draw() {
