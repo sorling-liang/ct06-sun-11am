@@ -13,5 +13,5 @@ function setup() {
 function draw() {
     background("lightpink");
     textSize(34);
-    text(someVar, )
+    text(someVar, width/2, height/2-80);
 }
