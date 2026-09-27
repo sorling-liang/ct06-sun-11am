@@ -1,7 +1,7 @@
 // write your codes here
 // write your 2 functions
 let textInput;
-let someVar;
+let someVar = "";
 function setup() {
     createCanvas(600,400);
     background("lightpink");
