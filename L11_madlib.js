@@ -23,3 +23,6 @@ function draw() {
     textAlign(RIGHT, CENTER);
     text("Give me your name:", width/2-15, 110);
 }
+function updateText() {
+    console.log(textInput.value());
+}
