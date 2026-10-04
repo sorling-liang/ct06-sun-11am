@@ -11,7 +11,7 @@ let storyTemplates;
 
 function setup() {
     storyTemplates = [
-        "The {}",
+        "The {adj} {noun}",
         "",
         ""
     ];
