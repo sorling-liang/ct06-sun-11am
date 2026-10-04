@@ -12,7 +12,7 @@ function setup() {
    textInput.position(  width/2, 100);
 
     button = createButton("Click ME");
-    button.position(     width/2, 135);
+    button.position(    width/2, 135);
 }
 
 // forever loop; 60 frames per one seconds
