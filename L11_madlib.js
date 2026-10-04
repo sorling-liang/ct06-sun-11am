@@ -12,7 +12,7 @@ let storyTemplates;
 
 function setup() {
     storyTemplates = [
-        "The {adj} {noun} decided to ",
+        "The {adj} {noun} decided to {verb} {adv} at the {place}",
         "",
         "",
     ];
