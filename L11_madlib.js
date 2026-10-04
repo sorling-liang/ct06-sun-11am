@@ -20,13 +20,13 @@ function setup() {
     adjectiveInput.position(  width/2, 160);
 
     adVerbInput = createInput();
-    adVerbInput.position(  width/2, 220);
+    adVerbInput.position(  width/2, 190);
 
     placeInput = createInput();
-    placeInput.position(  width/2, 260);
+    placeInput.position(  width/2, 220);
 
     button = createButton("Generate Story");
-    button.position(     width/2, 295);
+    button.position(     width/2, 255);
     button.mousePressed( updateText );
 }
 
