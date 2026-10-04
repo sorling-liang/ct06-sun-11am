@@ -69,7 +69,6 @@ function updateText() {
     storyText = storyText.replace("{verb}", verbInput.value());
     storyText = storyText.replace("{adj}", adjectiveInput.value());
     storyText = storyText.replace("{adv}", adVerbInput.value());
-    storyText = storyText.replace("{place}", "Hougang");
-
+    storyText = storyText.replace("{place}", placeInput.value());
 
 }
