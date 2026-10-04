@@ -11,8 +11,8 @@ let storyTemplates;
 
 function setup() {
     storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adv} in the {place}.",
+        "The {adj} {noun} decided to {verb} {adv} at {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}.",
         "The {place} has a {adj} {noun} who is trying to {verb} {adv}."
     ];
