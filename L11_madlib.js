@@ -68,8 +68,8 @@ function updateStory() {
     storyText = template.replace("{noun}", nounInput.value());
 
     storyText = storyText.replace("{adj}", adjectiveInput.value());
-    storyText = storyText.replace("{verb}", "barks");
-    storyText = storyText.replace("{adv}",  "loudly");
+    storyText = storyText.replace("{verb}", verbInput.value());
+    storyText = storyText.replace("{adv}",  nounInput.value());
     storyText = storyText.replace("{place}",  "window of the principal's office");
 
 }
