@@ -1,6 +1,7 @@
 // write your codes here
 // write 2 functions
 let textInput;
+let secondInput;
 let button;
 
 function setup() {
@@ -11,7 +12,7 @@ function setup() {
     textInput.position(width/2, 100);
 
     button = createButton("Submit");
-    button.position(   width/2, 230);
+    button.position(   width/2, 200);
 }
 
 function draw() {
