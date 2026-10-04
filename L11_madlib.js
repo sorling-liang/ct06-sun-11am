@@ -17,6 +17,8 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}."
     ];
 
+    template = random(s)
+
     createCanvas(600,700);
 
     nounInput = createInput();
