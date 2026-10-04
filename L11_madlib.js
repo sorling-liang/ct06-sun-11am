@@ -20,7 +20,7 @@ function setup() {
 
     template = random(storyTemplates); // randomly choose 1 item from Array
     storyText = template.replace("{noun}", "dog");
-    storyText = template.replace("{adj}",  "brown");
+    storyText = storyText.replace("{adj}",  "brown");
     console.log(storyText);
 
     createCanvas(600,700);
