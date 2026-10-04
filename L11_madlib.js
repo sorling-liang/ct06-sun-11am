@@ -14,7 +14,7 @@ function setup() {
         "The {adj} {noun} decided to {verb} {adv} at the {place}.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in the {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}.",
-        "The {place} has a {adj} {noun} who is trying to "
+        "The {place} has a {adj} {noun} who is trying to {verb} {adv}."
     ];
 
 
