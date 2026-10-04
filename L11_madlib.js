@@ -18,7 +18,7 @@ function setup() {
     verbInput.position(width/2, 140);
 
     button = createButton("Generate Story");
-    button.position(   width/2, 200);
+    button.position(   width/2, 500);
     button.mousePressed(updateStory);
 }
 
