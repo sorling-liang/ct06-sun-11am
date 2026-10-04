@@ -10,8 +10,12 @@ let storyText = "";
 let storyTemplates;
 
 function setup() {
-    storyTemplates = [];
-    
+    storyTemplates = [
+        "The {}",
+        "",
+        ""
+    ];
+
 
     createCanvas(700, 800);
 
