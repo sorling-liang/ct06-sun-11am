@@ -18,8 +18,7 @@ function setup() {
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}.",
     ];
 
-
-    console.log(storyText);
+    // console.log(storyText);
 
     createCanvas(800,700);
 
