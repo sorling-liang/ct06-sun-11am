@@ -52,7 +52,7 @@ function draw() {
     text("Enter an adverb e.g. sadly:", width/2-15, 200);
     text("Enter a place e.g. the library:", width/2-15, 230);
 
-
+    fill("red");
     text(storyText, width/2, height/2);
 
 }
