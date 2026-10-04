@@ -39,7 +39,7 @@ function draw() {
     text("Enter a verb e.g. jump:", width/2-15, 140);
     text("Enter an adjective e.g. happy:", width/2-15, 170);
     text("Enter an adverb e.g. sadly:", width/2-15, 200);
-    text("Enter a place e.g. the library:", width/2-15, 200);
+    text("Enter a place e.g. the library:", width/2-15, 230);
 
 }
 function updateText() {
