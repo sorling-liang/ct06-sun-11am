@@ -3,7 +3,7 @@ function setup() {
 
 }
 
-// forever loop
+// forever loop; 60 frames per one seconds
 function draw() {
 
 }
