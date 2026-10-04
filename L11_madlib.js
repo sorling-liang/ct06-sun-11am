@@ -62,7 +62,8 @@ function draw() {
     text("Enter a place, e.g. Ang mo kio",  width/2-10, 270);
 
 
-    
+    fill("red");
+    text(storyText, width/2, he)
 }
 function updateStory() {
     // console.log("some errors here!");
