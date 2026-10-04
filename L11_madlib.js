@@ -45,6 +45,7 @@ function setup() {
 function draw() {
     background("silver");
     textSize(18);
+    fill("black");
     textAlign(RIGHT, CENTER);
     text("Enter a noun e.g. dog:", width/2-15, 110);
     text("Enter a verb e.g. jump:", width/2-15, 140);
@@ -54,7 +55,6 @@ function draw() {
 
     fill("red");
     text(storyText, width/2, height/2);
-
 }
 function updateText() {
     console.log("noun: "      + nounInput.value());
