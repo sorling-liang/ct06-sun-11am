@@ -38,8 +38,8 @@ function draw() {
     text("Enter a noun, e.g. dog",          width/2-10, 110);
     text("Enter a verb, e.g. cry",          width/2-10, 150);
     text("Enter an Adjective, e.g. pretty", width/2-10, 190);
-    text("Enter an Adverb, e.g. happily",   width/2-10, 240);
-    text("Enter a place, e.g. Ang mo kio",  width/2-10, 290);
+    text("Enter an Adverb, e.g. happily",   width/2-10, 230);
+    text("Enter a place, e.g. Ang mo kio",  width/2-10, 270);
 
 }
 function updateStory() {
