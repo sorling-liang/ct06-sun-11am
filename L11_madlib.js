@@ -18,13 +18,6 @@ function setup() {
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}.",
     ];
 
-    template = random(storyTemplates); // randomly choose 1 item from Array
-    storyText = template.replace("{noun}", "dog");
-
-    storyText = storyText.replace("{adj}", "brown");
-    storyText = storyText.replace("{verb}", "barks");
-    storyText = storyText.replace("{adv}",  "loudly");
-    storyText = storyText.replace("{place}",  "window of the principal's office");
 
     console.log(storyText);
 
@@ -68,5 +61,15 @@ function draw() {
 function updateStory() {
     // console.log("some errors here!");
     print("Hello " + textInput.value());
+
     print("I am going to " + secondInput.value());
+    
+    template = random(storyTemplates); // randomly choose 1 item from Array
+    storyText = template.replace("{noun}", "dog");
+
+    storyText = storyText.replace("{adj}", "brown");
+    storyText = storyText.replace("{verb}", "barks");
+    storyText = storyText.replace("{adv}",  "loudly");
+    storyText = storyText.replace("{place}",  "window of the principal's office");
+
 }
