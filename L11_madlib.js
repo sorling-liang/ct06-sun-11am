@@ -7,9 +7,10 @@ function setup() {
     createCanvas(600,700);
 
     textInput = createInput();
-    textInput.position(width/2, )
+    textInput.position(width/2, 100);
 
     button = createButton();
+    button.position
 }
 
 function draw() {
