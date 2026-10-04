@@ -19,6 +19,7 @@ function setup() {
 
     storyText = random(storyTemplates);
     storyText = storyText.replace("{noun}", "dog");
+    storyText = st
 
     createCanvas(700, 800);
 
