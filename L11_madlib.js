@@ -2,6 +2,9 @@
 // write 2 functions
 let nounInput;
 let verbInput;
+let adjectiveInput;
+let adverbInput;
+let placeInput
 let button;
 
 function setup() {
@@ -11,8 +14,8 @@ function setup() {
     //                    x      y
     nounInput.position(width/2, 100);
 
-    secondInput = createInput();
-    secondInput.position(width/2, 140);
+    verbInput = createInput();
+    verbInput.position(width/2, 140);
 
     button = createButton("Generate Story");
     button.position(   width/2, 200);
