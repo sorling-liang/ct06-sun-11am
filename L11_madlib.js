@@ -8,6 +8,8 @@ function setup() {
     createCanvas(700, 800);
 
     textInput = createInput();
+
+    button = createButton("Click ME");
 }
 
 // forever loop; 60 frames per one seconds
