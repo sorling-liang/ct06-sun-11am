@@ -14,7 +14,7 @@ function setup() {
         "The {adj} {noun} decided to {verb} {adv} at {place}.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}.",
-        "In {place} has a {adj} {noun} who is trying to {verb} {adv}."
+        "In {place}, there is a {adj} {noun} who is trying to {verb} {adv}."
     ];
 
     storyText = random(storyTemplates);
