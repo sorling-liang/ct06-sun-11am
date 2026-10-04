@@ -16,4 +16,5 @@ function setup() {
 
 function draw() {
     background("silver");
+    text("give me your name", wi)
 }
