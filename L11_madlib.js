@@ -45,7 +45,7 @@ function setup() {
 function draw() {
     background("silver");
     textSize(18);
-    fill("black");
+    fill("black"); // reset text color
     textAlign(RIGHT, CENTER);
     text("Enter a noun e.g. dog:", width/2-15, 110);
     text("Enter a verb e.g. jump:", width/2-15, 140);
