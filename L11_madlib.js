@@ -21,10 +21,10 @@ function setup() {
     adjectiveInput.position(width/2, 180);
     
     adverbInput = createInput();
-    adverbInput.position(width/2, 180);
+    adverbInput.position(width/2, 220);
 
-    adverbInput = createInput();
-    adverbInput.position(width/2, 180);
+    placeInput = createInput();
+    placeInput.position(width/2, 260);
 
     button = createButton("Generate Story");
     button.position(   width/2, 500);
