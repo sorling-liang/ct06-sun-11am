@@ -27,5 +27,5 @@ function draw() {
     text("tell me your home address", width/2-10, 150);
 }
 function updateStory() {
-    
+    print("Hello " + textInput.value());
 }
