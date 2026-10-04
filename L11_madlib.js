@@ -36,7 +36,7 @@ function draw() {
     textSize(18)
     textAlign(RIGHT, CENTER);
     text("Enter a noun, e.g. dog",         width/2-10, 110);
-    text("tell me your home address", width/2-10, 150);
+    text("Enter a verb, e.g. cry", width/2-10, 150);
 }
 function updateStory() {
     print("Hello " + textInput.value());
