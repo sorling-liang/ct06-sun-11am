@@ -67,7 +67,7 @@ function updateStory() {
     template = random(storyTemplates); // randomly choose 1 item from Array
     storyText = template.replace("{noun}", nounInput.value());
 
-    storyText = storyText.replace("{adj}", "brown");
+    storyText = storyText.replace("{adj}", adjectiveInput.value());
     storyText = storyText.replace("{verb}", "barks");
     storyText = storyText.replace("{adv}",  "loudly");
     storyText = storyText.replace("{place}",  "window of the principal's office");
