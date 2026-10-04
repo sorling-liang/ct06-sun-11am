@@ -23,6 +23,9 @@ function setup() {
     adverbInput = createInput();
     adverbInput.position(width/2, 180);
 
+    adverbInput = createInput();
+    adverbInput.position(width/2, 180);
+
     button = createButton("Generate Story");
     button.position(   width/2, 500);
     button.mousePressed(updateStory);
