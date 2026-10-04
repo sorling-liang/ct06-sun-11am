@@ -17,13 +17,6 @@ function setup() {
         "In {place}, there is a {adj} {noun} who is trying to {verb} {adv}."
     ];
 
-    storyText = random(storyTemplates);
-    storyText = storyText.replace("{noun}", "dog");
-    storyText = storyText.replace("{verb}", "jump");
-    storyText = storyText.replace("{adj}", "sad");
-    storyText = storyText.replace("{adv}", "happily");
-    storyText = storyText.replace("{place}", "Hougang");
-
 
     createCanvas(700, 800);
 
@@ -70,4 +63,12 @@ function updateText() {
     console.log("adjective: " + adjectiveInput.value());
     console.log("verb: "     + adVerbInput.value());
     console.log("place: "    + placeInput.value());
+        storyText = random(storyTemplates);
+    storyText = storyText.replace("{noun}", "dog");
+    storyText = storyText.replace("{verb}", "jump");
+    storyText = storyText.replace("{adj}", "sad");
+    storyText = storyText.replace("{adv}", "happily");
+    storyText = storyText.replace("{place}", "Hougang");
+
+
 }
