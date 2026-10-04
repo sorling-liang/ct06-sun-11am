@@ -64,6 +64,7 @@ function updateStory() {
 
     let template = random(storyTemplates); // randomly choose 1 item from Array
     storyText = template.replace("{noun}", nounInput.value());
+    
     storyText = storyText.replace("{adj}", adjectiveInput.value());
     storyText = storyText.replace("{verb}", verbInput.value());
     storyText = storyText.replace("{adv}",  adverbInput.value());
