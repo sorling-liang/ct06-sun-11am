@@ -17,5 +17,5 @@ function setup() {
 
 // forever loop; 60 frames per one seconds
 function draw() {
-    background("brown")
+    background("silver");
 }
