@@ -17,6 +17,7 @@ function setup() {
         "The {place} has a {adj} {noun} who is trying to {verb} {adv}."
     ];
 
+    storyText = random(storyTemplates);
 
     createCanvas(700, 800);
 
