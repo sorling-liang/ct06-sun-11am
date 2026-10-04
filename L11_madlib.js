@@ -63,8 +63,9 @@ function updateText() {
     console.log("adjective: " + adjectiveInput.value());
     console.log("verb: "     + adVerbInput.value());
     console.log("place: "    + placeInput.value());
-        storyText = random(storyTemplates);
-    storyText = storyText.replace("{noun}", "dog");
+    
+    storyText = random(storyTemplates);
+    storyText = storyText.replace("{noun}", nounInput.value());
     storyText = storyText.replace("{verb}", "jump");
     storyText = storyText.replace("{adj}", "sad");
     storyText = storyText.replace("{adv}", "happily");
