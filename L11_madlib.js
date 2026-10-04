@@ -18,5 +18,7 @@ function setup() {
 // forever loop; 60 frames per one seconds
 function draw() {
     background("silver");
-    textSize()
+    textSize(18);
+    textAlign(RIGHT, CENTER);
+    text("Give me your name", width/2-20, )
 }
