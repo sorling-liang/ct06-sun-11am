@@ -13,8 +13,8 @@ function setup() {
     //                     x      y
     nounInput.position(  width/2, 100);
 
-    button = createButton("Click ME");
-    button.position(     width/2, 135);
+    button = createButton("Generate Story");
+    button.position(     width/2, 235);
     button.mousePressed( updateText );
 }
 
