@@ -16,6 +16,7 @@ function setup() {
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}.",
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}.",
+        "",
     ];
 
     // console.log(storyText);
