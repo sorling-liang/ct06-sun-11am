@@ -9,8 +9,8 @@ function setup() {
     textInput = createInput();
     textInput.position(width/2, 100);
 
-    button = createButton();
-    button.position
+    button = createButton("Click ME");
+    button.position(width/2, 200);
 }
 
 function draw() {
