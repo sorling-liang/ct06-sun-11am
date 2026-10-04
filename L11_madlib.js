@@ -21,8 +21,8 @@ function setup() {
     storyText = storyText.replace("{noun}", "dog");
     storyText = storyText.replace("{verb}", "jump");
     storyText = storyText.replace("{adj}", "jump");
-    storyText = storyText.replace("{adv}", "jump");
-    storyText = storyText.replace("{place}", "jump");
+    storyText = storyText.replace("{adv}", "");
+    storyText = storyText.replace("{place}", "Hougang");
 
 
     createCanvas(700, 800);
