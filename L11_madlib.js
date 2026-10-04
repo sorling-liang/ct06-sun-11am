@@ -1,6 +1,4 @@
 // write 2 functions
-// call once
-
 let textInput;
 let button;
 
