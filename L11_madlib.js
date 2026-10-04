@@ -25,7 +25,7 @@ function setup() {
     storyText = storyText.replace("{verb}", "barks");
     storyText = storyText.replace("{adv}",  "loudly");
     storyText = storyText.replace("{place}",  "window of the principal's office");
-    
+
     console.log(storyText);
 
     createCanvas(600,700);
@@ -61,6 +61,8 @@ function draw() {
     text("Enter an Adverb, e.g. happily",   width/2-10, 230);
     text("Enter a place, e.g. Ang mo kio",  width/2-10, 270);
 
+
+    
 }
 function updateStory() {
     // console.log("some errors here!");
