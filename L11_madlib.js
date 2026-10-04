@@ -5,5 +5,5 @@ function setup() {
 }
 
 function draw() {
-    background("gold");
+    background(200);
 }
