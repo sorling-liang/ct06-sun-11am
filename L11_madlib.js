@@ -43,5 +43,10 @@ function draw() {
 
 }
 function updateText() {
-    console.log("Hello, " + textInput.value());
+    console.log("Hello, " + nounInput.value());
+    console.log("Hello, " + nounInput.value());
+    console.log("Hello, " + nounInput.value());
+    console.log("Hello, " + nounInput.value());
+    console.log("Hello, " + nounInput.value());
+    console.log("Hello, " + nounInput.value());
 }
