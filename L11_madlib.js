@@ -18,6 +18,7 @@ function setup() {
     ];
 
     template = random(storyTemplates); // randomly choose 1 item from Array
+    st
 
     createCanvas(600,700);
 
