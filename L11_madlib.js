@@ -28,7 +28,7 @@ function setup() {
 
     console.log(storyText);
 
-    createCanvas(600,700);
+    createCanvas(800,700);
 
     nounInput = createInput();
     //                    x      y
