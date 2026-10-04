@@ -61,6 +61,7 @@ function draw() {
     text("Enter a place e.g. the library:", width/2-15, 230);
 
     fill("red");
+    textAlign(CENTER, CENTER);
     text(storyText, width/2, height/2);
 }
 function updateText() {
