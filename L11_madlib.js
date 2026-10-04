@@ -66,8 +66,8 @@ function updateText() {
     
     storyText = random(storyTemplates);
     storyText = storyText.replace("{noun}", nounInput.value());
-    storyText = storyText.replace("{verb}", "jump");
-    storyText = storyText.replace("{adj}", "sad");
+    storyText = storyText.replace("{verb}", verbInput.value());
+    storyText = storyText.replace("{adj}", adjectiveInput.value());
     storyText = storyText.replace("{adv}", "happily");
     storyText = storyText.replace("{place}", "Hougang");
 
