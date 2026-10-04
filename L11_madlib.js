@@ -18,7 +18,7 @@ function setup() {
     ];
 
     template = random(storyTemplates); // randomly choose 1 item from Array
-    st
+    storyText = template.replace("", "");
 
     createCanvas(600,700);
 
