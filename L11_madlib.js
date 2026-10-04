@@ -18,6 +18,6 @@ function draw() {
     background("silver");
     textSize(18)
     textAlign(RIGHT, CENTER);
-    text("give me your name", width/2-10, 110);
-    text("give me your name", width/2-10, 110);
+    text("give me your name",         width/2-10, 110);
+    text("tell me your home address", width/2-10, 110);
 }
