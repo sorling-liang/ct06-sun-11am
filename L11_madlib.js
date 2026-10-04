@@ -43,6 +43,7 @@ function draw() {
 
 }
 function updateStory() {
+    // console.log("")
     print("Hello " + textInput.value());
     print("I am going to " + secondInput.value());
 }
