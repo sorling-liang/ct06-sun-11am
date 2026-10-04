@@ -27,7 +27,7 @@ function setup() {
     placeInput.position(width/2, 260);
 
     button = createButton("Generate Story");
-    button.position(   width/2, 500);
+    button.position(   width/2, 300);
     button.mousePressed(updateStory);
 }
 
