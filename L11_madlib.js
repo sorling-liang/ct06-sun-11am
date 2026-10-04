@@ -16,7 +16,7 @@ function setup() {
 
     button = createButton("Generate");
     button.position(   width/2, 200);
-    button.mousePresssed(updateStory);
+    button.mousePressed(updateStory);
 }
 
 function draw() {
@@ -28,4 +28,5 @@ function draw() {
 }
 function updateStory() {
     print("Hello " + textInput.value());
+    print("I am going to " + secondInput.value());
 }
