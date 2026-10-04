@@ -19,4 +19,5 @@ function draw() {
     textSize(18)
     textAlign(RIGHT, CENTER);
     text("give me your name", width/2-10, 110);
+    text("give me your name", width/2-10, 110);
 }
