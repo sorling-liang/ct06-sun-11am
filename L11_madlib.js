@@ -22,8 +22,11 @@ function setup() {
     adVerbInput = createInput();
     adVerbInput.position(  width/2, 220);
 
+        adVerbInput = createInput();
+    adVerbInput.position(  width/2, 220);
+
     button = createButton("Generate Story");
-    button.position(     width/2, 235);
+    button.position(     width/2, 295);
     button.mousePressed( updateText );
 }
 
