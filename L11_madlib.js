@@ -16,8 +16,11 @@ function setup() {
     verbInput = createInput();
     verbInput.position(  width/2, 140);
 
+    adjectiveInput = createInput();
+    adVerbInput.position(  width/2, 140);
+
     adVerbInput = createInput();
-    verbInput.position(  width/2, 140);
+    adVerbInput.position(  width/2, 140);
 
     button = createButton("Generate Story");
     button.position(     width/2, 235);
