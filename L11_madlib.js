@@ -10,6 +10,9 @@ let storyText = "";
 let storyTemplates;
 
 function setup() {
+    storyTemplates = [];
+    
+
     createCanvas(700, 800);
 
     nounInput = createInput();
