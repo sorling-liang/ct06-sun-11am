@@ -1,20 +1,20 @@
 // write your codes here
 // write 2 functions
 let nounInput;
-let secondInput;
+let verbInput;
 let button;
 
 function setup() {
     createCanvas(600,700);
 
-    textInput = createInput();
+    nounInput = createInput();
     //                    x      y
-    textInput.position(width/2, 100);
+    nounInput.position(width/2, 100);
 
     secondInput = createInput();
     secondInput.position(width/2, 140);
 
-    button = createButton("Generate");
+    button = createButton("Generate Story");
     button.position(   width/2, 200);
     button.mousePressed(updateStory);
 }
