@@ -45,8 +45,7 @@ function draw() {
 function updateText() {
     console.log("noun: " + nounInput.value());
     console.log("Hello, " + nounInput.value());
-    console.log("Hello, " + nounInput.value());
-    console.log("Hello, " + nounInput.value());
-    console.log("Hello, " + adVerbInput.value());
+    console.log("Hello, " + adjectiveInput.value());
+    console.log("verb:, " + adVerbInput.value());
     console.log("place: " + placeInput.value());
 }
