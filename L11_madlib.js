@@ -43,9 +43,9 @@ function draw() {
 
 }
 function updateText() {
-    console.log("noun: "     + nounInput.value());
-    console.log("verb: "     + verbInput.value());
+    console.log("noun: "      + nounInput.value());
+    console.log("verb: "      + verbInput.value());
     console.log("adjective: " + adjectiveInput.value());
-    console.log("verb: "    + adVerbInput.value());
-    console.log("place: "   + placeInput.value());
+    console.log("verb: "     + adVerbInput.value());
+    console.log("place: "    + placeInput.value());
 }
