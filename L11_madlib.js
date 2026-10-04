@@ -16,6 +16,7 @@ function setup() {
 
 function draw() {
     background("silver");
-    textSize(64);
+    textSize(35)
+    textAlign();
     text("give me your name", width/2, 120);
 }
