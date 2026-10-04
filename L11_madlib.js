@@ -13,6 +13,7 @@ function setup() {
 
     button = createButton("Click ME");
     button.position(     width/2, 135);
+    button.mousePressed()
 }
 
 // forever loop; 60 frames per one seconds
