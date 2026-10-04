@@ -14,7 +14,7 @@ function setup() {
     storyTemplates = [
         "The {adj} {noun} decided to {verb} {adv} at the {place}",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}",
-        "",
+        "Did you hear about the {adj} {}",
     ];
 
     createCanvas(600,700);
