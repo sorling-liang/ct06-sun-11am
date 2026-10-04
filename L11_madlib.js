@@ -20,8 +20,8 @@ function setup() {
     storyText = random(storyTemplates);
     storyText = storyText.replace("{noun}", "dog");
     storyText = storyText.replace("{verb}", "jump");
-    storyText = storyText.replace("{adj}", "jump");
-    storyText = storyText.replace("{adv}", "");
+    storyText = storyText.replace("{adj}", "sad");
+    storyText = storyText.replace("{adv}", "happily");
     storyText = storyText.replace("{place}", "Hougang");
 
 
