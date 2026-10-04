@@ -39,7 +39,7 @@ function draw() {
     text("Enter a verb, e.g. cry",          width/2-10, 150);
     text("Enter an Adjective, e.g. pretty", width/2-10, 210);
     text("Enter an Adverb, e.g. happily",   width/2-10, 250);
-    text("Enter a place, e.g. Ang mo kio",   width/2-10, 250);
+    text("Enter a place, e.g. Ang mo kio",  width/2-10, 290);
 
 }
 function updateStory() {
