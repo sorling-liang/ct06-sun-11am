@@ -62,7 +62,6 @@ function draw() {
     text("Enter an Adverb, e.g. happily",   width/2-10, 230);
     text("Enter a place, e.g. Ang mo kio",  width/2-10, 270);
 
-
     textAlign(CENTER, CENTER);
     textSize(14);
     fill("red");
