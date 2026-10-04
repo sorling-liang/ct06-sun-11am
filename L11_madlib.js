@@ -7,6 +7,7 @@ function setup() {
     createCanvas(600,700);
 
     textInput = createInput();
+    //                    x      y
     textInput.position(width/2, 100);
 
     button = createButton("Click ME");
