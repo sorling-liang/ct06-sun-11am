@@ -38,7 +38,9 @@ function draw() {
     text("Enter a noun e.g. dog:", width/2-15, 110);
     text("Enter a verb e.g. jump:", width/2-15, 140);
     text("Enter an adjective e.g. happy:", width/2-15, 170);
-    text("Enter an adverb e.g. sadly:", width/2-15, 240);
+    text("Enter an adverb e.g. sadly:", width/2-15, 200);
+    text("Enter an adverb e.g. sadly:", width/2-15, 200);
+
 }
 function updateText() {
     console.log("Hello, " + textInput.value());
