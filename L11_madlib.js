@@ -63,9 +63,9 @@ function updateStory() {
     print("Hello " + textInput.value());
 
     print("I am going to " + secondInput.value());
-    
+
     template = random(storyTemplates); // randomly choose 1 item from Array
-    storyText = template.replace("{noun}", "dog");
+    storyText = template.replace("{noun}", nounInput.value());
 
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
