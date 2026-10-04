@@ -18,4 +18,5 @@ function setup() {
 // forever loop; 60 frames per one seconds
 function draw() {
     background("silver");
+    textSize()
 }
