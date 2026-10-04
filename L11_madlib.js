@@ -55,7 +55,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(14);
     fill("red");
-    text(storyText, width/2, height/2);
+    text(storyText, width/2, height/2+50);
 }
 function updateStory() {
     // console.log("some errors here!");
@@ -64,7 +64,7 @@ function updateStory() {
 
     let template = random(storyTemplates); // randomly choose 1 item from Array
     storyText = template.replace("{noun}", nounInput.value());
-    
+
     storyText = storyText.replace("{adj}", adjectiveInput.value());
     storyText = storyText.replace("{verb}", verbInput.value());
     storyText = storyText.replace("{adv}",  adverbInput.value());
