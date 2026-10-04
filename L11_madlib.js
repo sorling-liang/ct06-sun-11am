@@ -1,6 +1,6 @@
 // write your codes here
 // write 2 functions
-let textInput;
+let nounInput;
 let secondInput;
 let button;
 
