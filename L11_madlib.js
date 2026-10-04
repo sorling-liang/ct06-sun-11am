@@ -50,7 +50,6 @@ function setup() {
     button.position(   width/2, 300);
     button.mousePressed(updateStory);
 }
-
 function draw() {
     background("silver");
     fill("black");
@@ -61,7 +60,6 @@ function draw() {
     text("Enter an Adjective, e.g. pretty", width/2-10, 190);
     text("Enter an Adverb, e.g. happily",   width/2-10, 230);
     text("Enter a place, e.g. Ang mo kio",  width/2-10, 270);
-
     textAlign(CENTER, CENTER);
     textSize(14);
     fill("red");
