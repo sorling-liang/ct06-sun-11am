@@ -11,6 +11,8 @@ let storyText;
 let storyTemplates;
 
 function setup() {
+    storyTemplates = [];
+    
     createCanvas(600,700);
 
     nounInput = createInput();
