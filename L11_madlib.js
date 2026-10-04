@@ -1,5 +1,9 @@
 // write 2 functions
 let nounInput;
+let verbInput;
+let adjectiveInput;
+let adverbInput;
+let placeInput;
 let button;
 
 function setup() {
