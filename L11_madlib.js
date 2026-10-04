@@ -1,13 +1,13 @@
 // write 2 functions
-let textInput;
+let nounInput;
 let button;
 
 function setup() {
     createCanvas(700, 800);
 
-    textInput = createInput();
+    nounInput = createInput();
     //                     x      y
-    textInput.position(  width/2, 100);
+    nounInput.position(  width/2, 100);
 
     button = createButton("Click ME");
     button.position(     width/2, 135);
