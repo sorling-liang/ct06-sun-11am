@@ -17,7 +17,7 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}."
     ];
 
-    template = random(s)
+    template = random(storyTemplates); // randomly choose 1 item from Array
 
     createCanvas(600,700);
 
