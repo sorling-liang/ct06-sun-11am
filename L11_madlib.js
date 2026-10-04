@@ -23,7 +23,7 @@ function draw() {
     background("silver");
     textSize(18);
     textAlign(RIGHT, CENTER);
-    text("Give me your name:", width/2-15, 110);
+    text("Enter a noun e.g. dog:", width/2-15, 110);
 }
 function updateText() {
     console.log("Hello, " + textInput.value());
