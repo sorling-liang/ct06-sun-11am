@@ -6,6 +6,9 @@ let adverbInput;
 let placeInput;
 let button;
 
+let storyText = "";
+let storyTemplates;
+
 function setup() {
     createCanvas(700, 800);
 
