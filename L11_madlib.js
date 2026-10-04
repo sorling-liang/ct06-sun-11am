@@ -47,6 +47,6 @@ function updateText() {
     console.log("Hello, " + nounInput.value());
     console.log("Hello, " + nounInput.value());
     console.log("Hello, " + nounInput.value());
-    console.log("Hello, " + nounInput.value());
-    console.log("Hello, " + placeInput.value());
+    console.log("Hello, " + adVerbInput.value());
+    console.log("place: " + placeInput.value());
 }
