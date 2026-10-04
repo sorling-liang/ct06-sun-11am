@@ -10,7 +10,7 @@ function setup() {
     //                    x      y
     textInput.position(width/2, 100);
 
-    button = createButton("Click ME");
+    button = createButton("Submit");
     button.position(   width/2, 130);
 }
 
