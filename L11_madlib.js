@@ -59,8 +59,8 @@ function draw() {
 }
 function updateStory() {
     // console.log("some errors here!");
-    print("Hello " + textInput.value());
-    print("I am going to " + secondInput.value());
+    // print("Hello " + textInput.value());
+    // print("I am going to " + secondInput.value());
 
     template = random(storyTemplates); // randomly choose 1 item from Array
     storyText = template.replace("{noun}", nounInput.value());
