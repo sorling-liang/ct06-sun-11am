@@ -1,5 +1,9 @@
 // write 2 functions
 // call once
+
+let textInput;
+let button;
+
 function setup() {
     createCanvas(700, 800);
 }
