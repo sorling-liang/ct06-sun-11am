@@ -20,5 +20,5 @@ function draw() {
     background("silver");
     textSize(18);
     textAlign(RIGHT, CENTER);
-    text("Give me your name", width/2-20, 100);
+    text("Give me your name", width/2-20, 110);
 }
