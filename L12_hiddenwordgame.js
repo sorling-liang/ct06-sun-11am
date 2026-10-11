@@ -11,7 +11,7 @@ let submitButton;
 function setup() {
     createCanvas(800,650);
     guessInput = createInput();
-    gues
+    guessInput.position(width/2, height/2);
     submitButton = createButton("Submit");
 }
 
