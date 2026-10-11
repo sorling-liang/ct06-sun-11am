@@ -1,5 +1,7 @@
 // write your codes here
-const WORDS = ["POWER", "SKULL", ""];
+const WORDS = ["POWER", "SKULL", "BLACK", "WHITE",
+    "WATER", ""
+];
 
 function setup() {
     createCanvas(800,650);
