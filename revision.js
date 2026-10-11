@@ -12,7 +12,7 @@ function setup() {
 function draw() {
     background("orange"); // erase the canvas
 
-    boxXpos += speed; // move the rectangle, going to the right
+    boxXpos = boxXpos + speed; // move the rectangle, going to the right
 
     if (boxXpos > width) {
         speed = speed * -1;
