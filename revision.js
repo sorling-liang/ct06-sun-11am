@@ -5,7 +5,7 @@ let speed = 2;
 
 function setup() {
     createCanvas(400, 650);
-    boxXpos = width/2; // set the value here
+    boxXpos = 55; // set the value here
 }
 
 // forever loop
