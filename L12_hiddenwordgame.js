@@ -30,8 +30,8 @@ function draw() {
     textSize(44);
     textAlign(CENTER, CENTER);
     text("Guess the hidden word", width/2, 75);
-    text("Attempts: 0",           width/2, 135);
-    text("Hint: " + hints,       width/2, 185);
+    text("Attempts: " + attempts, width/2, 135);
+    text("Hint: " + hints,        width/2, 185);
     fill("red");
     textSize(28);
     text(message, width/2, height/2 + 150);
