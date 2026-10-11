@@ -28,7 +28,7 @@ function setup() {
 }
 function checkAnswer() {
     let answer = guessInput.value();
-    answer = answer.toUpperCase();
+    answer = answer.toUpperCase(); // js camel case of variables naming
 }
 
 function draw() {
