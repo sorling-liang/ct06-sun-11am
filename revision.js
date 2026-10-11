@@ -5,10 +5,11 @@ let speed = 2;
 
 function setup() {
     createCanvas(400, 650);
+    boxXpos = width/2;
 }
 
 function draw() {
     background("orange");
     rectMode(CENTER);
-    rect(width/2, height/2, 100, 25);
+    rect(boxXpos, height/2, 100, 25);
 }
