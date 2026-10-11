@@ -14,6 +14,10 @@ function draw() {
 
     boxXpos += speed; // move the rectangle, going to the right
 
+    if (boxXpos > width) {
+        s
+    }
+
     rectMode(CENTER);
     rect(boxXpos, height/2, 100, 25);
 }
