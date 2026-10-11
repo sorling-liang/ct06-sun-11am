@@ -5,6 +5,9 @@ const WORDS = [
     "COVER", "TABLE", "GREAT",
 ];
 
+let guessInput;
+let submitButton;
+
 function setup() {
     createCanvas(800,650);
 }
