@@ -18,7 +18,6 @@ function setup() {
     submitButton.position(width/2+75, height/2);
     submitButton.style("font-size", "20px");
 }
-
 function draw() {
     background("lightgray");
     fill("black");
