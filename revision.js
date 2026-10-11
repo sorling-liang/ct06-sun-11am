@@ -11,10 +11,10 @@ function setup() {
 function draw() {
     background("orange"); // erase the canvas
     boxXpos = boxXpos + speed; // move the rectangle, going to the right
-    if (boxXpos > width) {
+    if (boxXpos > width-50) {
         speed = speed * -1;
     }
-    if (boxXpos < 0) {
+    if (boxXpos < 0+50) {
         speed = speed * -1;
     }
     rectMode(CENTER);
