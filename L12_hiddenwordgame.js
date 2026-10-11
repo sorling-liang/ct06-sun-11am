@@ -9,6 +9,7 @@ let submitButton;
 let message = "";
 let hidden;
 let hints;
+let attempts = 0;
 
 function setup() {
     createCanvas(800,650);
