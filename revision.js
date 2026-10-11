@@ -8,6 +8,7 @@ function setup() {
     boxXpos = width/2; // set the value here
 }
 
+// forever loop
 function draw() {
     background("orange");
     rectMode(CENTER);
