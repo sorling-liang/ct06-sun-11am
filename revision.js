@@ -14,7 +14,7 @@ function draw() {
 
     boxXpos = boxXpos + speed; // move the rectangle, going to the right
 
-    if (boxXpos > width-12.5) {
+    if (boxXpos > width-50) {
         speed = speed * -1;
     }
 
