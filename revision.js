@@ -15,7 +15,7 @@ function draw() {
     boxXpos += speed; // move the rectangle, going to the right
 
     if (boxXpos > width) {
-        s
+        speed = speed * -1;
     }
 
     rectMode(CENTER);
