@@ -1,6 +1,8 @@
 // write your codes here
-const WORDS = ["POWER", "SKULL", "BLACK", "WHITE",
-    "WATER", "MESSY"
+const WORDS = [
+    "POWER", "SKULL", "BLACK", 
+    "WHITE", "WATER", "MESSY", 
+    "COVER", "TABLE", "GREAT",
 ];
 
 function setup() {
