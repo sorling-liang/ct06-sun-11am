@@ -7,7 +7,6 @@ function setup() {
     createCanvas(400, 650);
     boxXpos = 55; // set the value here
 }
-
 // forever loop
 function draw() {
     background("orange"); // erase the canvas
