@@ -19,7 +19,8 @@ function setup() {
     submitButton.position(width/2+75, height/2);
     submitButton.style("font-size", "20px");
 
-    hidden = ran
+    hidden = random(WORDS);
+    console.log(hidden);
 }
 function draw() {
     background("lightgray");
