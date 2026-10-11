@@ -5,5 +5,7 @@ function setup() {
 
 function draw() {
     background("lightgray");
-    textSize()
+    textSize(44);
+    textAlign(CENTER, CENTER);
+    text
 }
