@@ -7,5 +7,5 @@ function draw() {
     background("lightgray");
     textSize(44);
     textAlign(CENTER, CENTER);
-    text
+    text("Guess the hidden word", width/2, 75)
 }
