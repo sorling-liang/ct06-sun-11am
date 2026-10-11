@@ -27,7 +27,8 @@ function setup() {
     hints = hidden[0] + " _ _ _ _";
 }
 function checkAnswer() {
-
+    let answer = guessInput.value();
+    answer = answer.toUpperCase();
 }
 
 function draw() {
