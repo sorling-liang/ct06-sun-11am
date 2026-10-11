@@ -12,7 +12,7 @@ function setup() {
 function draw() {
     background("orange");
 
-    boxXpos += speed; // move
+    boxXpos += speed; // move the rectangle
 
     rectMode(CENTER);
     rect(boxXpos, height/2, 100, 25);
