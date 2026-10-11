@@ -31,7 +31,7 @@ function checkAnswer() {
     answer = answer.toUpperCase(); // js camel case of variables naming
 
     if (answer === hidden) {
-        
+        message = "You won the game!";
     }
 }
 
