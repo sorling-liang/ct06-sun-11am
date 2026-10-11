@@ -10,7 +10,7 @@ function setup() {
 
 // forever loop
 function draw() {
-    background("orange");
+    background("orange"); // erase the canvas
 
     boxXpos += speed; // move the rectangle, going to the right
 
