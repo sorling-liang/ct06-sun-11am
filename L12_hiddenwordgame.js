@@ -27,5 +27,6 @@ function draw() {
     text("Guess the hidden word", width/2, 75);
     text("Attempts: 0",           width/2, 135);
     text("Hint: S _ _ _ _",       width/2, 185);
-    text(message, width/2, h)
+    fill("red");
+    text(message, width/2, height/2 + 200);
 }
