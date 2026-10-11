@@ -26,6 +26,10 @@ function setup() {
     console.log(hidden);
     hints = hidden[0] + " _ _ _ _";
 }
+function checkAnswer() {
+
+}
+
 function draw() {
     background("lightgray");
     fill("black");
