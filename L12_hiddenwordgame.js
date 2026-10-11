@@ -1,6 +1,6 @@
 // write your codes here
 const WORDS = ["POWER", "SKULL", "BLACK", "WHITE",
-    "WATER", ""
+    "WATER", "MESSY"
 ];
 
 function setup() {
