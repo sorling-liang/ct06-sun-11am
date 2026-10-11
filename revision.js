@@ -11,6 +11,9 @@ function setup() {
 // forever loop
 function draw() {
     background("orange");
+
+    boxXpos += speed; // move
+
     rectMode(CENTER);
     rect(boxXpos, height/2, 100, 25);
 }
