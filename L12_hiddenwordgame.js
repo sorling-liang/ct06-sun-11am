@@ -10,6 +10,8 @@ let submitButton;
 
 function setup() {
     createCanvas(800,650);
+    guessInput = createInput();
+    submitButton = createButton();
 }
 
 function draw() {
