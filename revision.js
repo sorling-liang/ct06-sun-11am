@@ -11,16 +11,13 @@ function setup() {
 // forever loop
 function draw() {
     background("orange"); // erase the canvas
-
     boxXpos = boxXpos + speed; // move the rectangle, going to the right
-
     if (boxXpos > width-50) {
         speed = speed * -1;
     }
     if (boxXpos < 0+50) {
         speed = speed * -1;
     }
-
     rectMode(CENTER);
     rect(boxXpos, height/2, 100, 25);
 }
