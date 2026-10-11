@@ -7,6 +7,7 @@ const WORDS = [
 let guessInput;
 let submitButton;
 let message = "";
+let hidden;
 
 function setup() {
     createCanvas(800,650);
@@ -17,6 +18,8 @@ function setup() {
     submitButton = createButton("Submit");
     submitButton.position(width/2+75, height/2);
     submitButton.style("font-size", "20px");
+
+    hidden = ran
 }
 function draw() {
     background("lightgray");
