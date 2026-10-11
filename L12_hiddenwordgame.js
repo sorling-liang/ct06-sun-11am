@@ -4,7 +4,6 @@ const WORDS = [
     "WHITE", "WATER", "MESSY", 
     "COVER", "TABLE", "GREAT",
 ];
-
 let guessInput;
 let submitButton;
 let message = "";
