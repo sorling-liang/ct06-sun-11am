@@ -33,6 +33,9 @@ function checkAnswer() {
     if (answer === hidden) {
         message = "You won the game!";
     }
+    else {
+        message = "Wrong";
+    }
 }
 
 function draw() {
