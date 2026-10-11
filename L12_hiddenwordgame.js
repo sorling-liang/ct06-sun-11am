@@ -37,7 +37,6 @@ function checkAnswer() {
         message = "Wrong";
     }
 }
-
 function draw() {
     background("lightgray");
     fill("black");
