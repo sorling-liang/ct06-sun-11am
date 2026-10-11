@@ -13,7 +13,7 @@ function setup() {
     guessInput = createInput();
     guessInput.position(width/2-200, height/2);
     submitButton = createButton("Submit");
-    s
+    submitButton.position(width/2, height/2);
 }
 
 function draw() {
