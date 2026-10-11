@@ -17,6 +17,9 @@ function draw() {
     if (boxXpos > width-50) {
         speed = speed * -1;
     }
+    if (boxXpos < 0+50) {
+        setup
+    }
 
     rectMode(CENTER);
     rect(boxXpos, height/2, 100, 25);
