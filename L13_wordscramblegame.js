@@ -10,7 +10,7 @@ function draw() {
     text("Scrambled Word: COITAARN", width/2, 160);
 
     textSize(24);
-    text("Score: 0", width/2, height/2+80);
+    text("Score: 0",           width/2, height/2+80);
     text("Streak: 0 (Max: 0)", width/2, height/2+110);
-    text("Some message here", wi)
+    text("Some message here",  width/2, height/2+140;)
 }
