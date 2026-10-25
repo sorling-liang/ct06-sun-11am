@@ -20,7 +20,7 @@ function setup() {
     scrambledButton = createButton("Re-scramble");
     submitButton = createButton("Submit");
     submitButton.position(400,300);
-    submitButton.size(20);
+    submitButton.size(150);
 }
 function draw() {
     background(220);
