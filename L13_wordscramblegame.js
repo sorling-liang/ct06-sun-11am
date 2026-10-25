@@ -17,8 +17,12 @@ const WORDS = ["Expression","International","Bumblebee",
 
 function setup() {
     createCanvas(800,600);
-    
+
     scrambledButton = createButton("Re-scramble");
+    scrambledButton.position(100,300);
+    scrambledButton.size(150);
+
+    guessInput = createInput();
     scrambledButton.position(100,300);
     scrambledButton.size(150);
 
