@@ -9,6 +9,6 @@ function draw() {
     text("Word Scramble Game!", width/2, 100);
     text("Scrambled Word: COITAARN", width/2, 160);
 
-    textSize(18);
-    text("Score: 0", width/2, height/2+100);
+    textSize(24);
+    text("Score: 0", width/2, height/2+80);
 }
