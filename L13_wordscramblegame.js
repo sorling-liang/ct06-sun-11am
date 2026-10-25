@@ -5,7 +5,7 @@ let max = 0;
 let message = "";
 
 const WORDS = ["Expression","International","Bumblebee", 
-    "Coincidentally", "notebook", "scrambled", ""];
+    "Coincidentally", "notebook", "scrambled", "seventeen"];
 
 function setup() {
     createCanvas(800,600);
