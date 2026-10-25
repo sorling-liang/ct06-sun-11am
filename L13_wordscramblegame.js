@@ -22,6 +22,7 @@ function setup() {
     scrambledButton.position(150,280);
     scrambledButton.style("font-size", "18px"); // px means pixel
     scrambledButton.size(150,30); // width and height
+    scrambledButton.mo
 
     guessInput = createInput();
     guessInput.position(315,280);
