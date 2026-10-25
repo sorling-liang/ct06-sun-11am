@@ -8,4 +8,6 @@ function draw() {
     textAlign(CENTER, CENTER);
     text("Word Scramble Game!", width/2, 100);
     text("Scrambled Word: COITAARN", width/2, 160);
+
+    textSize()
 }
