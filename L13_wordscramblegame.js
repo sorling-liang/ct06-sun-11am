@@ -44,7 +44,6 @@ function checkGuess() {
     let guess = guessInput.value();
     guess = guess.toUpperCase();
     if (guess === hiddenword) {
-        fill("")
         message = "You guessed it!";
     }
 }
