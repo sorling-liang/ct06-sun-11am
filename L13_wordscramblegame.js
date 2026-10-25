@@ -51,7 +51,7 @@ function scrambleWord(aWord) {
     for (let index = arrLetters.length-1; 
         index > 0; 
         index--) {
-            // do the swop
+            // do the swap
             first = arrLetters[index];
             who = floor(random(0, index+1));
     }
