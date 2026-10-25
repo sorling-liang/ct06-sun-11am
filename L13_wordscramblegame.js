@@ -11,5 +11,6 @@ function draw() {
 
     textSize(24);
     text("Score: 0", width/2, height/2+80);
-    text("Streak", width/2, height/2+110);
+    text("Streak: 0 (Max: 0)", width/2, height/2+110);
+    text("Some message here", wi)
 }
