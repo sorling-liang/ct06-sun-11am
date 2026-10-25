@@ -80,6 +80,7 @@ function draw() {
     textSize(24);
     text("Score: " + score,                         width/2, height/2+80);
     text("Streak: " + streak + " (Max: "+ max +")", width/2, height/2+110);
-    
+    fill("red");
     text(message,                                   width/2, height/2+140);
+    fill("black");
 }
