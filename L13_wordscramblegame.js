@@ -47,7 +47,7 @@ function chooseHiddenWord() {
     scrambled = scrambleWord(hiddenword);
 }
 function scrambleWord(aWord) {
-    let arrLetters = aWord.split("")
+    let arrLetters = aWord.split("");
 }
 function draw() {
     background(220);
