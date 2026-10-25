@@ -5,6 +5,10 @@ let max = 0;
 let message = "";
 
 let scrambled = "";
+let hiddenword = "";
+
+let scrambledButton;
+let input
 
 const WORDS = ["Expression","International","Bumblebee", 
     "Coincidentally", "notebook", "scrambled", "seventeen",
