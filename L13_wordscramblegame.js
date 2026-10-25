@@ -19,17 +19,17 @@ function setup() {
     createCanvas(800,600);
 
     scrambledButton = createButton("Re-scramble");
-    scrambledButton.position(150,300);
+    scrambledButton.position(150,280);
     scrambledButton.style("font-size", "18px"); // px means pixel
     scrambledButton.size(150,30); // width and height
 
     guessInput = createInput();
-    guessInput.position(305,300);
+    guessInput.position(305,280);
     guessInput.style("font-size", "18px");
     guessInput.size(150,30);
 
     submitButton = createButton("Submit");
-    submitButton.position(470,300);
+    submitButton.position(470,280);
     submitButton.style("font-size", "18px");
     submitButton.size(110,30);
 }
