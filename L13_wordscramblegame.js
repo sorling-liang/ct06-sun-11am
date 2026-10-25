@@ -20,7 +20,7 @@ function setup() {
 
     scrambledButton = createButton("Re-scramble");
     scrambledButton.position(150,300);
-    scrambledButton.style("font-size", "18px");
+    scrambledButton.style("font-size", "16px");
     scrambledButton.size(150);
 
     guessInput = createInput();
