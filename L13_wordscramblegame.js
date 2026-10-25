@@ -41,7 +41,7 @@ function doScrambleAgain() {
     scrambled = scrambleWord(hiddenword);
 }
 function checkGuess() {
-
+    let guess = guessInput.value()
 }
 function chooseHiddenWord() {
     hiddenword = random(WORDS);
