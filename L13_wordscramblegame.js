@@ -4,6 +4,8 @@ let streak = 0;
 let max = 0;
 let message = "";
 
+let scrambled = "";
+
 const WORDS = ["Expression","International","Bumblebee", 
     "Coincidentally", "notebook", "scrambled", "seventeen",
     "Nigeria", "bookstore", "photographs"];
@@ -15,8 +17,8 @@ function draw() {
     background(220);
     textSize(32);
     textAlign(CENTER, CENTER);
-    text("Word Scramble Game!", width/2, 100);
-    text("Scrambled Word: COITAARN", width/2, 160);
+    text("Word Scramble Game!",          width/2, 100);
+    text("Scrambled Word: " + scrambled, width/2, 160);
 
     textSize(24);
     text("Score: " + score,                         width/2, height/2+80);
