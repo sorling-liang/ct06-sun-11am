@@ -19,7 +19,8 @@ function setup() {
     createCanvas(800,600);
     scrambledButton = createButton("Re-scramble");
     submitButton = createButton("Submit");
-    submitButton
+    submitButton.position();
+    submitButton.size(20);
 }
 function draw() {
     background(220);
