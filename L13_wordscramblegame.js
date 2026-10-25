@@ -48,9 +48,9 @@ function chooseHiddenWord() {
 }
 function scrambleWord(aWord) {
     let arrLetters = aWord.split(""); // split a string into an array
-    for (let index=arrLetters.length-1;
-         index > 0;
-         index--) {
+    for (let index=arrLetters.length-1; 
+        index > 0; 
+        index--) {
             // do the swop
             first = arrLetters[index];
     }
