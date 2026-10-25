@@ -21,15 +21,15 @@ function setup() {
     scrambledButton = createButton("Re-scramble");
     scrambledButton.position(150,300);
     scrambledButton.style("font-size", "16px");
-    scrambledButton.size(150);
+    scrambledButton.size(150,30);
 
     guessInput = createInput();
     guessInput.position(305,300);
-    guessInput.size(150);
+    guessInput.size(150,30);
 
     submitButton = createButton("Submit");
     submitButton.position(470,300);
-    submitButton.size(110);
+    submitButton.size(110,30);
 }
 function draw() {
     background(220);
