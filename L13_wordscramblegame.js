@@ -24,7 +24,7 @@ function setup() {
     scrambledButton.size(150,30); // width and height
 
     guessInput = createInput();
-    guessInput.position(305,280);
+    guessInput.position(315,280);
     guessInput.style("font-size", "18px");
     guessInput.size(150,30);
 
