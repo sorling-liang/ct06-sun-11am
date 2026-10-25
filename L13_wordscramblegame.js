@@ -12,7 +12,7 @@ let guessInput = "";
 let submitButton;
 
 const WORDS = ["EXPRESSION","International","BUMBLEBEE", 
-    "Coincidentally", "notebook", "scrambled", "seventeen",
+    "Coincidentally", "NOTEBOOK", "scrambled", "seventeen",
     "Nigeria", "bookstore", "photographs"];
 
 function setup() {
