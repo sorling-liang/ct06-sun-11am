@@ -46,6 +46,9 @@ function checkGuess() {
     if (guess === hiddenword) {
         message = "You guessed it!";
     }
+    else {
+        message = "You are wrong!";
+    }
 }
 function chooseHiddenWord() {
     hiddenword = random(WORDS);
@@ -77,5 +80,6 @@ function draw() {
     textSize(24);
     text("Score: " + score,                         width/2, height/2+80);
     text("Streak: " + streak + " (Max: "+ max +")", width/2, height/2+110);
+    
     text(message,                                   width/2, height/2+140);
 }
