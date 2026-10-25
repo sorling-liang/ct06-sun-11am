@@ -1,6 +1,9 @@
 // write your codes here
-let score;
-let 
+let score = 0;
+let streak;
+let max;
+let message;
+
 function setup() {
     createCanvas(800,600);
 }
