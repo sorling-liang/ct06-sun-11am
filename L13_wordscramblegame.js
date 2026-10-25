@@ -5,5 +5,5 @@ function setup() {
 function draw() {
     background(220);
     textSize(32);
-    text("Word Scramble Game!")
+    text("Word Scramble Game!", width/2, hei)
 }
