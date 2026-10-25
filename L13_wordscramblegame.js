@@ -54,6 +54,7 @@ function scrambleWord(aWord) {
             // do the swap
             first = arrLetters[index];
             who = floor(random(0, index+1));
+            second = arrLetters[who];
     }
     
 }
