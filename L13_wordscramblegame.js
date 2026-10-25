@@ -12,8 +12,8 @@ let guessInput = "";
 let submitButton;
 
 const WORDS = ["EXPRESSION","International","BUMBLEBEE", 
-    "Coincidentally", "NOTEBOOK", "scrambled", "seventeen",
-    "Nigeria", "bookstore", "photographs"];
+    "Coincidentally", "NOTEBOOK", "SCRAMBLED", "seventeen",
+    "Nigeria", "BOOKSTORE", "photographs"];
 
 function setup() {
     createCanvas(800,600);
