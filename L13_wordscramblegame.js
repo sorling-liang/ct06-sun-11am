@@ -10,5 +10,5 @@ function draw() {
     text("Scrambled Word: COITAARN", width/2, 160);
 
     textSize(18);
-    text("", width/2, he)
+    text("Score: 0", width/2, height/2+100);
 }
