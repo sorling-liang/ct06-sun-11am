@@ -35,6 +35,9 @@ function setup() {
     submitButton.size(110,30);
     submitButton.mousePressed(checkGuess);
 }
+function doScrambleAgain() {
+
+}
 function draw() {
     background(220);
     textSize(32);
