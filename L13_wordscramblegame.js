@@ -39,7 +39,10 @@ function doScrambleAgain() {
 
 }
 function checkGuess() {
-    
+
+}
+function chooseHiddenWord() {
+    hiddenword = random()
 }
 function draw() {
     background(220);
