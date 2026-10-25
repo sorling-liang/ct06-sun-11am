@@ -1,4 +1,6 @@
 // write your codes here
+let score;
+let 
 function setup() {
     createCanvas(800,600);
 }
