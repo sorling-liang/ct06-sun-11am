@@ -19,7 +19,7 @@ function setup() {
     createCanvas(800,600);
 
     scrambledButton = createButton("Re-scramble");
-    scrambledButton.position(100,300);
+    scrambledButton.position(150,300);
     scrambledButton.size(150);
 
     guessInput = createInput();
@@ -27,7 +27,7 @@ function setup() {
     guessInput.size(150);
 
     submitButton = createButton("Submit");
-    submitButton.position(400,300);
+    submitButton.position(420,300);
     submitButton.size(110);
 }
 function draw() {
