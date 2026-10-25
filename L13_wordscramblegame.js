@@ -38,7 +38,7 @@ function setup() {
     chooseHiddenWord();
 }
 function doScrambleAgain() {
-
+    scrambled = scrambleWord(hiddenword);
 }
 function checkGuess() {
 
