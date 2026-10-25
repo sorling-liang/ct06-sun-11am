@@ -47,7 +47,7 @@ function checkGuess() {
         message = "You guessed it!";
     }
     else {
-        message = "You are wrong!";
+        message = "Nah!";
     }
 }
 function chooseHiddenWord() {
