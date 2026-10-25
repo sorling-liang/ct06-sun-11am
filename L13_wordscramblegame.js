@@ -46,6 +46,9 @@ function chooseHiddenWord() {
     hiddenword = hiddenword.toUpperCase();
     scrambled = scrambleWord(hiddenword);
 }
+function scrambleWord() {
+    
+}
 function draw() {
     background(220);
     textSize(32);
