@@ -18,6 +18,8 @@ const WORDS = ["Expression","International","Bumblebee",
 function setup() {
     createCanvas(800,600);
     scrambledButton = createButton("Re-scramble");
+    submitButton = createButton("Submit");
+
 }
 function draw() {
     background(220);
