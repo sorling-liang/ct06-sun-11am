@@ -33,7 +33,7 @@ function setup() {
     submitButton.position(485,280);
     submitButton.style("font-size", "18px");
     submitButton.size(110,30);
-    scrambledButton.mousePressed(checkGuess);
+    submitButton.mousePressed(checkGuess);
 }
 function draw() {
     background(220);
