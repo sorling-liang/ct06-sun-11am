@@ -23,7 +23,7 @@ function setup() {
     scrambledButton.size(150);
 
     guessInput = createInput();
-    guessInput.position(220,300);
+    guessInput.position(255,300);
     guessInput.size(150);
 
     submitButton = createButton("Submit");
