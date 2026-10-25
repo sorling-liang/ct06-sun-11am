@@ -11,8 +11,8 @@ let scrambledButton;
 let guessInput = "";
 let submitButton;
 
-const WORDS = ["EXPRESSION","International","BUMBLEBEE", 
-    "Coincidentally", "NOTEBOOK", "SCRAMBLED", "SEVENTEEN",
+const WORDS = ["EXPRESSION","INTERNATIONAL","BUMBLEBEE", 
+    "COINCIDENTALLY", "NOTEBOOK", "SCRAMBLED", "SEVENTEEN",
     "NIGERIA", "BOOKSTORE", "PHOTOGRAPHS"];
 
 function setup() {
