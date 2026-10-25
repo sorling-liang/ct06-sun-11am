@@ -6,7 +6,7 @@ let message = "";
 
 const WORDS = ["Expression","International","Bumblebee", 
     "Coincidentally", "notebook", "scrambled", "seventeen",
-    "Nigeria", "bookstore", "photograhp"];
+    "Nigeria", "bookstore", "photographs"];
 
 function setup() {
     createCanvas(800,600);
