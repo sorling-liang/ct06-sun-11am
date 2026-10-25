@@ -53,7 +53,7 @@ function scrambleWord(aWord) {
         index--) {
             // do the swop
             first = arrLetters[index];
-            who = random(0, index)
+            who = floor(random(0, index+1));
     }
     
 }
