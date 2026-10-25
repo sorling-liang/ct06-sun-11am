@@ -56,7 +56,7 @@ function scrambleWord(aWord) {
             who = floor(random(0, index+1));
             second = arrLetters[who];
             temporary = first;
-            a
+            arrLetters[index] = second;
     }
     
 }
