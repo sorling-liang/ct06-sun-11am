@@ -8,7 +8,8 @@ let scrambled = "";
 let hiddenword = "";
 
 let scrambledButton;
-let input
+let inputText = "";
+let submitButton;
 
 const WORDS = ["Expression","International","Bumblebee", 
     "Coincidentally", "notebook", "scrambled", "seventeen",
