@@ -65,7 +65,7 @@ function draw() {
         spikesX[index] -= spikeSpeed; // move from right to left
         // draw triangle
         triangle( spikesX[index],              height,
-                  0,0,
+                  0,                           height - spikeHeight,
                   spikesX[index] + spikeWidth, height
         )
     }
