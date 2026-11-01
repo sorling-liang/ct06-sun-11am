@@ -12,8 +12,8 @@ let isGrounded = false;
 // obstacles;
 let spikesX = []; // many spikes
 
-let spikeWidth = 20;
-let spikeHeight = 30;
+let spikeWidth = 30;
+let spikeHeight = 40;
 let spikeSpeed = 5;
 
 function setup() {
