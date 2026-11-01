@@ -13,7 +13,7 @@ let isGrounded = false;
 let spikesX = []; // many spikes
 
 let spikeWidth = 40;
-let spikeHeight = 55;
+let spikeHeight = 65;
 let spikeSpeed = 5;
 
 function setup() {
