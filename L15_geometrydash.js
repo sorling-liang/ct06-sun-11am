@@ -12,7 +12,8 @@ let isGrounded = false;
 // obstacles;
 let spikesX = [];
 
-let spikeWidth =
+let spikeWidth = 20;
+let spikeHeight = 30;
 
 function setup() {
     createCanvas(600,400);
