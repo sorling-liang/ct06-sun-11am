@@ -23,7 +23,7 @@ function draw() {
         return;
     }
     
-    velocity += 0.000000001; // simulate gravity
+    velocity += 0.8; // simulate gravity
     playerY += velocity;
 
     fill("cyan");
