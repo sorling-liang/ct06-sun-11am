@@ -57,6 +57,11 @@ function draw() {
     // player
     fill("lime");
     rect(playerX, playerY, playerSize, playerSize);
+
+
+    // obstacles
+    
+
 }
 function drawStartScreen() {
     fill("white");
