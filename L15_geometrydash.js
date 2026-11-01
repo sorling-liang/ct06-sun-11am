@@ -65,7 +65,7 @@ function draw() {
         spikesX[index] -= spikeSpeed; // move from right to left
         
         if (spikesX[index] < 0) {
-            spikesX[index] = width + random()
+            spikesX[index] = width + random(100,300);
         }
 
         // draw triangle
