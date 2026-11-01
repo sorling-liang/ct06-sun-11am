@@ -26,6 +26,13 @@ function draw() {
     velocity += 0.8; // simulate gravity
     playerY += velocity; // pull playerY downwards
 
+    if (playerY >= height - playerSize) {
+
+    }
+    else {
+        isGrounded = false;
+    }
+
     fill("cyan");
     textSize(18);
     textAlign(CENTER, CENTER);
