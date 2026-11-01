@@ -11,7 +11,7 @@ let isGrounded = false;
 function setup() {
     createCanvas(600,400);
     background("black");
-    playerY = playerSize;
+    playerY = height - playerSize;
 }
 
 function draw() {
