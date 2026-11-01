@@ -63,6 +63,11 @@ function draw() {
     fill("red");
     for (let index=0; index<3; index++) {
         spikesX[index] -= spikeSpeed; // move from right to left
+        
+        if (spikesX[index] < 0) {
+            
+        }
+
         // draw triangle
         triangle( spikesX[index],                 height,
                   spikesX[index] + spikeWidth/2,  height - spikeHeight,
