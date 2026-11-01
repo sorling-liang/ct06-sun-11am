@@ -14,6 +14,7 @@ let spikesX = []; // many spikes
 
 let spikeWidth = 20;
 let spikeHeight = 30;
+let spikeSpeed = 5;
 
 function setup() {
     createCanvas(600,400);
