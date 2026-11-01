@@ -24,7 +24,7 @@ function draw() {
     }
     
     velocity += 0.8; // simulate gravity
-    playerY += velocity;
+    playerY += velocity; // pull playerY downwards
 
     fill("cyan");
     textSize(18);
