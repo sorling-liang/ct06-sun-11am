@@ -1,1 +1,49 @@
 // write your codes here
+let gameStarted = false;
+let score = 0;
+
+let playerX = 100;
+let playerY;
+let playerSize = 50;
+let velocity = 10; // speed of player
+let isGrounded = false;
+
+function setup() {
+    createCanvas(600,400);
+    background("black");
+    playerY = playerSize;
+}
+
+function draw() {
+    background("black"); // erase
+
+    // if not gameStarted means gameStarted === false
+    if (!gameStarted) {
+        drawStartScreen();
+        return;
+    }
+    
+    velocity += 0.000000001; // simulate gravity
+    playerY += velocity;
+
+    fill("cyan");
+    textSize(18);
+    textAlign(CENTER, CENTER);
+    text("Press SPACE to jump!", width/2, 50);
+    text("Score: "+score,        width/2, 80);
+
+    // player
+    fill("lime");
+    rect(playerX, playerY, playerSize, playerSize);
+}
+function drawStartScreen() {
+    fill("white");
+    textSize(44);
+    textAlign(CENTER, CENTER);
+    text("Press SPACE to start", width/2, height/2);
+}
+function keyPressed() {
+    if (keyCode === 32) {
+        gameStarted = true;
+    }
+}
