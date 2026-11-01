@@ -62,7 +62,7 @@ function draw() {
     // obstacles
     fill("red");
     for (let index=0; index<3; index++) {
-        spikesX[index] -= random(1,spikeSpeed); // move from right to left
+        spikesX[index] -= random(1, spikeSpeed); // move from right to left
         
         // endless obstacles
         if (spikesX[index] < 0) {
