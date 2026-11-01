@@ -8,6 +8,10 @@ let playerSize = 50;
 let velocity = 10; // speed of player
 let isGrounded = false;
 
+
+// obstacles;
+let spikesX = [];
+
 function setup() {
     createCanvas(600,400);
     background("black");
@@ -27,7 +31,7 @@ function draw() {
     playerY += velocity; // pull playerY downwards
 
     if (playerY >= height - playerSize) {
-        
+
         velocity = 0;
         isGrounded = true;
         playerY = height - playerSize;
