@@ -64,7 +64,10 @@ function draw() {
     for (let index=0; index<3; index++) {
         spikesX[index] -= spikeSpeed; // move from right to left
         // draw triangle
-        triange()
+        triange( 0,0,
+                 0,0,
+                 0,0
+        )
     }
 
 }
