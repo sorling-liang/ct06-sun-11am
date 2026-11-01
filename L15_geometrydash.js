@@ -22,7 +22,7 @@ function setup() {
     playerY = height - playerSize;
 
     for (let count=0; count<3; count++) {
-        spikesX.push(width + count*300);
+        spikesX.push(width + count*300); // each obstacle's X position
     }
 }
 
