@@ -64,6 +64,7 @@ function draw() {
     for (let index=0; index<3; index++) {
         spikesX[index] -= spikeSpeed; // move from right to left
         
+        // endless obstacles
         if (spikesX[index] < 0) {
             spikesX[index] = width + random(100,300);
         }
