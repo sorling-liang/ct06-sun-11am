@@ -405,7 +405,7 @@ function getPseudoMoves(gameBoard, piece, powersOnly) {
     }
   }
 
-  if (piece.powerUsed) return moves;
+  if (!powersOnly || piece.powerUsed) return moves;
   if (type === 'pawn') {
     const direction = side === CYAN ? -1 : 1;
     const destinationRow = row + direction * 3;
