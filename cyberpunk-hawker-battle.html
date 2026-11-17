@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A turn-based cyberpunk hawker chess game.">
+  <title>Cyberpunk Hawker Battle</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #101523;
+      color: #f5f4ec;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      justify-items: center;
+      align-content: start;
+      padding: 18px 10px 28px;
+      box-sizing: border-box;
+    }
+
+    main {
+      width: min(100%, 760px);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 4px 0 6px;
+      color: #f7bd55;
+      font-size: clamp(1.35rem, 5vw, 2rem);
+    }
+
+    p {
+      margin: 6px auto 12px;
+      max-width: 700px;
+      color: #c7cede;
+      line-height: 1.45;
+    }
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid #38445a;
+      border-radius: 12px;
+      touch-action: none;
+    }
+
+    a {
+      color: #52dfd0;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5play@3/planck.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5play@3/p5play.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Cyberpunk Hawker Battle</h1>
+    <p>
+      A two-player hawker chess match. Select a piece to see its moves, then tap a
+      highlighted square. Use its one-time power with the button below the board.
+      Cyan and amber take turns on the same screen. Castling and en passant are
+      omitted; pawns promote to queens automatically.
+    </p>
+    <div id="game"></div>
+    <p><a href="index.html">Back to homepage</a></p>
+  </main>
+  <script src="cyberpunk-hawker-battle.js"></script>
+</body>
+</html>
