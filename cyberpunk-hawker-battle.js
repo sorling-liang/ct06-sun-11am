@@ -176,7 +176,7 @@ function drawControls() {
   let powerLabel = 'SELECT A PIECE FOR ITS POWER';
   let buttonColor = '#39465c';
   if (selectedPiece) {
-    const powerName = POWER_NAMES[selectedPiece.type];
+    const powerName = POWER_NAMES[selectedPiece.powerType];
     if (selectedPiece.powerUsed) {
       powerLabel = `${powerName.toUpperCase()} USED`;
     } else {
@@ -205,7 +205,7 @@ function drawFooter() {
   textAlign(CENTER, CENTER);
   textSize(12);
   const hint = selectedPiece
-    ? `${pieceName(selectedPiece)} • ${POWER_NAMES[selectedPiece.type]}: ${powerDescription(selectedPiece.type)}`
+    ? `${pieceName(selectedPiece)} • ${POWER_NAMES[selectedPiece.powerType]}: ${powerDescription(selectedPiece.powerType)}`
     : 'Tap a cyan or amber robot to see its moves. Powers are optional; pass the device after each turn.';
   text(hint, GAME_WIDTH / 2, 808);
 }
@@ -317,7 +317,7 @@ function resetGame() {
 }
 
 function makePiece(type, side, row, col, sprite) {
-  return { type, side, row, col, moved: false, powerUsed: false, sprite };
+  return { type, powerType: type, side, row, col, moved: false, powerUsed: false, sprite };
 }
 
 function getLegalMoves(gameBoard, piece, powersOnly) {
@@ -406,7 +406,8 @@ function getPseudoMoves(gameBoard, piece, powersOnly) {
   }
 
   if (!powersOnly || piece.powerUsed) return moves;
-  if (type === 'pawn') {
+  const powerType = piece.powerType;
+  if (powerType === 'pawn') {
     const direction = side === CYAN ? -1 : 1;
     const destinationRow = row + direction * 3;
     if (isInsideBoard(destinationRow, col) &&
@@ -415,7 +416,7 @@ function getPseudoMoves(gameBoard, piece, powersOnly) {
         !gameBoard[row + direction * 2][col]) {
       moves.push({ row: destinationRow, col, isPower: true });
     }
-  } else if (type === 'rook') {
+  } else if (powerType === 'rook') {
     for (const [rowStep, colStep] of straightDirections()) {
       for (let distance = 1; distance <= 3; distance++) {
         const targetRow = row + rowStep * distance;
@@ -433,21 +434,21 @@ function getPseudoMoves(gameBoard, piece, powersOnly) {
         }
       }
     }
-  } else if (type === 'knight') {
+  } else if (powerType === 'knight') {
     for (const [rowStep, colStep] of allDirections()) {
       addTarget(row + rowStep, col + colStep, true);
     }
-  } else if (type === 'bishop') {
+  } else if (powerType === 'bishop') {
     for (const [rowStep, colStep] of diagonalDirections()) {
       for (let distance = 2; distance <= 3; distance++) {
         addTarget(row + rowStep * distance, col + colStep * distance, true);
       }
     }
-  } else if (type === 'queen') {
+  } else if (powerType === 'queen') {
     for (const [rowStep, colStep] of knightSteps()) {
       addTarget(row + rowStep, col + colStep, true);
     }
-  } else if (type === 'king') {
+  } else if (powerType === 'king') {
     for (const [rowStep, colStep] of allDirections()) {
       addTarget(row + rowStep * 2, col + colStep * 2, true);
     }
@@ -487,10 +488,11 @@ function isSquareAttacked(gameBoard, targetRow, targetCol, bySide) {
         if (rowGap === direction && Math.abs(colGap) === 1) return true;
       } else if (piece.type === 'knight') {
         if (Math.abs(rowGap) * Math.abs(colGap) === 2) return true;
-        if (!piece.powerUsed && Math.max(Math.abs(rowGap), Math.abs(colGap)) === 1) return true;
+        if (piece.powerType === 'knight' && !piece.powerUsed &&
+            Math.max(Math.abs(rowGap), Math.abs(colGap)) === 1) return true;
       } else if (piece.type === 'king') {
         if (Math.max(Math.abs(rowGap), Math.abs(colGap)) === 1) return true;
-        if (!piece.powerUsed && isTwoStepDirection(rowGap, colGap) &&
+        if (piece.powerType === 'king' && !piece.powerUsed && isTwoStepDirection(rowGap, colGap) &&
             clearBetween(gameBoard, row, col, targetRow, targetCol)) return true;
       } else {
         const straight = rowGap === 0 || colGap === 0;
@@ -499,12 +501,12 @@ function isSquareAttacked(gameBoard, targetRow, targetCol, bySide) {
         if (piece.type === 'bishop' && diagonal && rayIsClear(gameBoard, row, col, targetRow, targetCol)) return true;
         if (piece.type === 'queen' && (straight || diagonal) &&
             rayIsClear(gameBoard, row, col, targetRow, targetCol)) return true;
-        if (!piece.powerUsed && piece.type === 'rook' && straight &&
+        if (piece.powerType === 'rook' && !piece.powerUsed && straight &&
             Math.abs(rowGap) + Math.abs(colGap) <= 3 && rowGap + colGap !== 0) return true;
-        if (!piece.powerUsed && piece.type === 'bishop' && diagonal &&
+        if (piece.powerType === 'bishop' && !piece.powerUsed && diagonal &&
             Math.max(Math.abs(rowGap), Math.abs(colGap)) <= 3 &&
             Math.max(Math.abs(rowGap), Math.abs(colGap)) >= 2) return true;
-        if (!piece.powerUsed && piece.type === 'queen' &&
+        if (piece.powerType === 'queen' && !piece.powerUsed &&
             Math.abs(rowGap) * Math.abs(colGap) === 2) return true;
       }
     }
