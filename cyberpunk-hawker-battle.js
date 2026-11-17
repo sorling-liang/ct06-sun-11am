@@ -34,7 +34,7 @@ let resetButton;
 let powerButton;
 
 function setup() {
-  const gameCanvas = new Canvas(GAME_WIDTH, GAME_HEIGHT);
+  const gameCanvas = createCanvas(GAME_WIDTH, GAME_HEIGHT);
   gameCanvas.parent('game');
   for (let index = 0; index < 32; index++) {
     const pieceSprite = new Sprite(0, 0, 48, 48);
