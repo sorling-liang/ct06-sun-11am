@@ -39,7 +39,7 @@ function setup() {
   for (let index = 0; index < 32; index++) {
     const pieceSprite = new Sprite(0, 0, 48, 48);
     pieceSprite.diameter = 48;
-    pieceSprite.physics = NONE;
+    pieceSprite.physics = 'none';
     pieceSprite.textSize = 21;
     pieceSprite.stroke = '#111827';
     pieceSprite.visible = false;
