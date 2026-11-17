@@ -29,7 +29,6 @@ let selectedPiece = null;
 let selectedMoves = [];
 let powerMode = false;
 let gameResult = '';
-let statusMessage = '';
 let pieceSprites = [];
 let resetButton;
 let powerButton;
@@ -72,7 +71,7 @@ function drawHeader() {
   fill('#c7cede');
   const turnText = gameResult
     ? gameResult
-    : `${sideName(currentSide)}'s turn${isKingInCheck(board, currentSide) ? ' — MASTER CHEF IN CHECK!' : ''}`;
+    : `${sideName(currentSide)}'s turn${isKingInCheck(board, currentSide) ? ' - MASTER CHEF IN CHECK!' : ''}`;
   text(turnText, GAME_WIDTH / 2, 70);
 
   textSize(12);
@@ -205,7 +204,7 @@ function drawFooter() {
   textAlign(CENTER, CENTER);
   textSize(12);
   const hint = selectedPiece
-    ? `${pieceName(selectedPiece)} • ${POWER_NAMES[selectedPiece.powerType]}: ${powerDescription(selectedPiece.powerType)}`
+    ? `${pieceName(selectedPiece)} | ${POWER_NAMES[selectedPiece.powerType]}: ${powerDescription(selectedPiece.powerType)}`
     : 'Tap a cyan or amber robot to see its moves. Powers are optional; pass the device after each turn.';
   text(hint, GAME_WIDTH / 2, 808);
 }
@@ -289,11 +288,9 @@ function updateGameResult() {
   if (moves.length === 0) {
     gameResult = checked
       ? `${sideName(otherSide(currentSide))} WINS BY CHECKMATE!`
-      : 'STALEMATE — THE HAWKER STALLS DRAW.';
-    statusMessage = gameResult;
+      : 'STALEMATE - THE HAWKER STALLS DRAW.';
     return;
   }
-  statusMessage = checked ? 'Master Chef in check!' : '';
 }
 
 function resetGame() {
@@ -303,7 +300,6 @@ function resetGame() {
   selectedMoves = [];
   powerMode = false;
   gameResult = '';
-  statusMessage = '';
   let spriteIndex = 0;
 
   const backRank = ['rook', 'knight', 'bishop', 'queen', 'king', 'bishop', 'knight', 'rook'];
