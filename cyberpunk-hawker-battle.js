@@ -49,7 +49,7 @@ function setup() {
   resetGame();
 }
 
-function draw() {
+function update() {
   background('#101523');
   drawHeader();
   drawBoard();
